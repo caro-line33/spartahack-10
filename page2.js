@@ -1,4 +1,14 @@
-let data
+const classBank = document.getElementById('selectedCourses');
+
+fetch('classes.json')
+  .then(response => {
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    return response.json();
+  })
+  .then(data => {
+    console.log(data); // Logs the entire JSON object
 
 
 document.addEventListener("DOMContentLoaded", async () => {
@@ -8,19 +18,13 @@ document.addEventListener("DOMContentLoaded", async () => {
     const courseSearch = document.getElementById("courseSearch");
     const selectedCourses = document.getElementById("selectedCourses");
 
-    courseSearch.addEventListener("keydown", (event) => {
-      if (event.key === "Enter") {
-        event.preventDefault();
-        const courseValue = courseSearch.value.trim();
-  
-        if (courseValue !== "") {
-          const courseElement = document.createElement("p");
-          courseElement.textContent = courseValue;
-  
-          selectedCourses.appendChild(courseElement);
-  
-          courseSearch.value = "";
-        }
-      }
+    data.classes.forEach((course, index) => {
+      console.log(`${course.ClassCode} - ${course.ClassName}`);
+      let newItem = document.createElement('button');
+      newItem.class = 'courseButton';  
+      newItem.innerHTML = (`${course.ClassCode}`);
+      classBank.appendChild(newItem);
+
     });
   });
+
