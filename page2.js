@@ -1,5 +1,5 @@
 const classBank = document.getElementById('selectedCourses');
-
+const myMajor = localStorage.getItem('myMajor');
 fetch('classes.json')
   .then(response => {
     if (!response.ok) {
@@ -18,7 +18,7 @@ fetch('classes.json')
     data.classes.forEach((course, index) => {
       console.log(`${course.ClassCode} - ${course.ClassName}`);
       let newItem = document.createElement('button');
-      newItem.class = 'courseButton';  
+
       newItem.innerHTML = (`${course.ClassCode}`);
       classBank.appendChild(newItem);
 
