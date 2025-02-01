@@ -32,9 +32,7 @@ enterMajorButton.addEventListener('click', enter);
 
 function storeMajor() {
     if (majorOptions.value) {
-        console.log(majorOptions.value);
         localStorage.setItem("myMajor", majorOptions.value);
-        // Use getItem() to retrieve the value from localStorage
         console.log(localStorage.getItem("myMajor"));
         enterMajorButton.disabled = false;
     }
