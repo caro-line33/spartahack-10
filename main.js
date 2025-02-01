@@ -24,8 +24,17 @@ const alreadyTaken = [2];
 
 console.log(coursesNeeded(majorArray, alreadyTaken));
 
+const enterMajorButton = document.getElementById('enterMajorButton');
+enterMajorButton.addEventListener('click', enter)
+function enter(){
+    if(majorOptions.value){
+        console.log('next page!');
+    }
+}
+
 const majorOptions = document.getElementById('majorOptions');
 majorOptions.addEventListener('change', storeMajor);
 function storeMajor(){
     console.log(majorOptions.value);
 }
+
