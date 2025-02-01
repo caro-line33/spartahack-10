@@ -1,39 +1,72 @@
-body {
-    background: white;
-    background-color: #EDEBD7;
-    text-align: center;
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
-  }
-
-h1 {
-    color: #423E37;
 }
 
-h2 {
-    color: #423E37;
+/* Body Styling */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: url('https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExcHRwd2ZmcDI5ajB6Z3ZwY3NraGp2MTZjejkwb3Fhemk2N2YybmF2YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/UYBDCJjwOd9Re/giphy.gif   ') repeat; /* Replace with your GIF URL */
+    background-size: cover; /* Ensure the GIF covers the whole screen */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    overflow: hidden; /* Hide any excess GIF outside of the view */
 }
 
-h3 {
-    color: #423E37;
+/* Text Styling */
+h1, h2, h3 {
+    font-size: 2rem;
+    color: #fff;
 }
 
-p{
-    color: #423E37;
-}
-
-
+/* Dropdown Styling */
 select {
-    width: 20rem;
-    background-color: #DCD9D9;
-    border: #423E37 2px solid;
-    padding: 5px;
-
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    background: #fff;
+    color: #333;
+    outline: none;
+    cursor: pointer;
+    transition: border 0.3s ease-in-out;
+    text-align: center;
 }
 
-select>option {
-    background-color: #DCD9D9;
+select:focus {
+    border-color: #007bff;
 }
 
-@view-transition{
-    navigation: auto;
+/* Button Styling */
+button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+    background: #007bff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+button:hover {
+    background: #0056b3;
+    transform: scale(1.05);
+}
+
+button:active {
+    transform: scale(0.95);
 }

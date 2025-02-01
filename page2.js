@@ -1,4 +1,10 @@
-document.addEventListener("DOMContentLoaded", () => {
+let data
+
+
+document.addEventListener("DOMContentLoaded", async () => {
+  data = await fetch("class.json").then(data => data.json())
+  console.log(data);
+  
     const courseSearch = document.getElementById("courseSearch");
     const selectedCourses = document.getElementById("selectedCourses");
 
@@ -18,4 +24,3 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     });
   });
-  
