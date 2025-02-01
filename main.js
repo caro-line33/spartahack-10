@@ -45,3 +45,9 @@ function enter(){
         window.location.href = "page2.html"; 
     }
 }
+
+function open_file(majortype){
+    const fs = require("fs");
+    fs.readFile(majorsincluded.txt);
+
+}
