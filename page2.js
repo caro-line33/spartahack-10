@@ -32,4 +32,4 @@ document.addEventListener("DOMContentLoaded", async () => {
       console.error('Error fetching the JSON file:', error);
     }
   });
-  
+
