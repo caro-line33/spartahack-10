@@ -1,11 +1,15 @@
-// Constructor function for Course objects.
-function Course(major, coursecode, coursename, semesters) {
-this.major = major;
-this.coursecode = coursecode;
-this.coursename = coursename;
-this.semesters = semesters;
-}
+// class constructor
+class Course {
+    constructor(coursecode, coursename, credits, prereqs, semesters) {
+        // might need to edit constructor depending on how the course data is read in
+        this.coursecode = coursecode;
+        this.coursename = coursename;
+        this.credits = credits;
+        this.prereqs = prereqs;
+        this.semesters = semesters;
 
+    }
+}
 
 const thisClass = new Course("ECE", "202", "Introduction to Circuits", "Fall");
 
