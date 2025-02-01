@@ -16,3 +16,26 @@ def open_file(prompt_str):
             prompt_str = input("\nEnter cards file name: ")
     return fp
 
+def read_card_data(fp):
+    """
+    Takes a file pointer (fp parameter) from open_file
+    creates a reader file to cycle through csv
+    creates a list
+    for each line in reader file, add line as a tuple
+    for each element, convert to correct parameters (char length, type, tup)
+    returns a list of tuples, with each tuple representing a card in dataset
+    """
+    reader_file = csv.reader(fp)
+    next(reader_file)
+    list_of_tup = []
+    card_count = 0  # variable to cycle through index # of the list
+
+    for card in reader_file:
+        list_of_tup += [card[0:7]]  # only interested in first 6 elements
+    for element in list_of_tup:  # conversion loop
+        list_of_tup[card_count][1] = list_of_tup[card_count][1][:45]
+        list_of_tup[card_count][6] = float(list_of_tup[card_count][6])
+        list_of_tup[card_count] = tuple(element)
+        card_count += 1
+    list_of_tup = sorted(list_of_tup, key=itemgetter(6,1))
+    return list_of_tup
