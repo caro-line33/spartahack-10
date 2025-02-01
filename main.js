@@ -7,11 +7,8 @@ class Course {
         this.credits = credits;
         this.prereqs = prereqs;
         this.semesters = semesters;
-
     }
 }
-
-const thisClass = new Course("ECE", "202", "Introduction to Circuits", "Fall");
 
 // removes all items in second list from first list
 function coursesNeeded(majorReq, alreadyTaken) {
@@ -19,14 +16,23 @@ function coursesNeeded(majorReq, alreadyTaken) {
     return majorReq.filter(course => !takenSet.has(course));
 }
 
-const majorArray = [1, 2, 3, 4]; 
-const alreadyTaken = [2];
 
-console.log(coursesNeeded(majorArray, alreadyTaken));
+const enterMajorButton = document.getElementById('enterMajorButton');
+enterMajorButton.addEventListener('click', enter)
+enterMajorButton.disabled = true;
 
+function enter(){
+    if(majorOptions.value){
+        console.log('next page!');
+    }
+}
 
 const majorOptions = document.getElementById('majorOptions');
 majorOptions.addEventListener('change', storeMajor);
 function storeMajor(){
-    console.log(majorOptions.value);
+    if(majorOptions.value){
+        console.log(majorOptions.value);
+        enterMajorButton.disabled = false;
+    }
 }
+

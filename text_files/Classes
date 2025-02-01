@@ -1,9 +1,10 @@
-ECE 101 "Introduction to Electrical and Computer Engineering" 1
-ECE 201 "Circuits and Systems I" 3
-ECE 202 "Circuits and Systems II"
-ECE 203 "Electric Circuits and Systems Laboratory"
-ECE 230
-ECE 280
-ECE 302
-ECE 303
-ECE 305
+ClassCode "Class Name" 0 "Prerecs" "concurrents" "SemestersOffered"
+ECE101 "Introduction to Electrical and Computer Engineering" 1 "N/A" "N/A" "FSA"
+ECE201 "Circuits and Systems I" 3 "CSE231 EGR102 CSE220, MTH234 MTH254H LB220" "CSE231 EGR102 CSE220 MTH234 MTH254H LB220" "FSA"
+ECE202 "Circuits and Systems II" 3 "ECE201, MTH235 MTH340 MTH347H" "MTH235" "FSA"
+ECE203 "Electric Circuits and Systems Laboratory" 1 "ECE202" "ECE202" "FSA"
+ECE230 "Digital Logic Fundamentals" 3 "CSE231 CSE220" "CSE231 CSE220" "FSA"
+ECE280 "Electrical engineering Analysis" 3 "MTH234 MTH234H, ECE201" "ECE201" "FSA"
+CEM141 "General Chemistry" 4 "MTH103 MTH110 MTH116 MTH124 MTH132 MTH152H LBS117 LBS118" "MTH103 MTH110 MTH116 MTH124 MTH132 MTH152H LBS117 LBS118" "FSA"
+PHY191 "Physics Laboratory For Scientists, I" 1 "PHY183 PHY193H PHY183B" "PHY183 PHY183B PHY193H" "FA"
+
