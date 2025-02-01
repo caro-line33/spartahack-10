@@ -15,9 +15,17 @@ function coursesNeeded(majorReq, alreadyTaken) {
     const takenSet = new Set(alreadyTaken);
     return majorReq.filter(course => !takenSet.has(course));
 }
+const enterMajorButton = document.getElementById('enterMajorButton');
+enterMajorButton.addEventListener('click', enter)
+function enter(){
+    if(majorOptions.value){
+        console.log('next page!');
+    }
+}
 
 const majorOptions = document.getElementById('majorOptions');
 majorOptions.addEventListener('change', storeMajor);
 function storeMajor(){
     console.log(majorOptions.value);
 }
+
