@@ -10,10 +10,13 @@ fetch('classes.json')
   .then(data => {
     console.log(data); // Logs the entire JSON object
 
-    console.log("Major:", data.Major); // Outputs: EE
 
-    const classes = data.classes;
-    console.log("Classes:", classes);
+document.addEventListener("DOMContentLoaded", async () => {
+  data = await fetch("class.json").then(data => data.json())
+  console.log(data);
+  
+    const courseSearch = document.getElementById("courseSearch");
+    const selectedCourses = document.getElementById("selectedCourses");
 
     data.classes.forEach((course, index) => {
       console.log(`${course.ClassCode} - ${course.ClassName}`);
@@ -23,8 +26,5 @@ fetch('classes.json')
       classBank.appendChild(newItem);
 
     });
-  })
-  .catch(error => {
-    console.error('Error fetching the JSON file:', error);
   });
 
