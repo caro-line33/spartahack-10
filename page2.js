@@ -1,3 +1,5 @@
+const classBank = document.getElementById('selectedCourses');
+
 fetch('classes.json')
   .then(response => {
     if (!response.ok) {
@@ -15,8 +17,14 @@ fetch('classes.json')
 
     data.classes.forEach((course, index) => {
       console.log(`${course.ClassCode} - ${course.ClassName}`);
+      let newItem = document.createElement('button');
+      newItem.class = 'courseButton';  
+      newItem.innerHTML = (`${course.ClassCode}`);
+      classBank.appendChild(newItem);
+
     });
   })
   .catch(error => {
     console.error('Error fetching the JSON file:', error);
   });
+
