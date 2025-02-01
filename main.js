@@ -9,8 +9,8 @@ const thisclass = new course("ECE", "202", , "");
 
 function courses_needed(majorreq, alreadytaken){
     // assume both inputs arrays
-    const set1 = new Set(majorreq)
-    return majorreq.filter(course => !set2.has(course));
+    const set1 = new Set(alreadytaken)
+    return majorreq.filter(course => !set1.has(course));
 }
 
 const majorarray = [1, 2, 3, 4];
