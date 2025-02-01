@@ -1,4 +1,5 @@
 // class constructor
+
 class Course {
     constructor(coursecode, coursename, credits, prereqs, semesters) {
         // might need to edit constructor depending on how the course data is read in
