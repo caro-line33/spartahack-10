@@ -12,3 +12,6 @@ function courses_needed(majorreq, alreadytaken){
     const set1 = new Set(majorreq)
     return majorreq.filter(course => !set2.has(course));
 }
+
+const majorarray = [1, 2, 3, 4];
+const alreadytaken = [2];
