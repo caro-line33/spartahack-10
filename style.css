@@ -20,3 +20,44 @@ h3 {
 p{
     color: #423E37;
 }
+
+
+/* Style the select dropdown */
+.styled-select {
+    width: 200px;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    appearance: none; /* Removes default dropdown arrow */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    position: relative;
+}
+
+/* Style the options inside the select */
+.styled-select option {
+    padding: 10px;
+    font-size: 16px;
+    background-color: white;
+    color: #333;
+}
+
+/* Optional: Change color of selected option */
+.styled-select option:checked {
+    background-color: #007BFF;
+    color: white;
+}
+
+/* Optional: Add a custom arrow */
+.styled-select::after {
+    content: '▼'; /* Adds a down arrow */
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    pointer-events: none;
+    font-size: 16px;
+    color: #007BFF;
+}
