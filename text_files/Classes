@@ -1,4 +1,4 @@
-ClassCode "Class Name" 0 "Prerecs" "concurrents" "SemestersOfferd"
+ClassCode "Class Name" 0 "Prerecs" "concurrents" "SemestersOffered"
 ECE101 "Introduction to Electrical and Computer Engineering" 1 "N/A" "N/A" "FSA"
 ECE201 "Circuits and Systems I" 3 "CSE231 EGR102 CSE220, MTH234 MTH254H LB220" "CSE231 EGR102 CSE220 MTH234 MTH254H LB220" "FSA"
 ECE202 "Circuits and Systems II" 3 "ECE201, MTH235 MTH340 MTH347H" "MTH235" "FSA"
