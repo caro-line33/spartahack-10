@@ -16,7 +16,6 @@ function coursesNeeded(majorReq, alreadyTaken) {
     return majorReq.filter(course => !takenSet.has(course));
 }
 
-
 // Get all necessary DOM elements first
 const majorOptions = document.getElementById('majorOptions');
 const enterMajorButton = document.getElementById('enterMajorButton');
@@ -30,12 +29,15 @@ enterMajorButton.disabled = true;
 // Event listener for the "Enter" button click
 enterMajorButton.addEventListener('click', enter);
 
+// store the major of what the user chooses
 function storeMajor() {
     if (majorOptions.value) {
         localStorage.setItem("myMajor", majorOptions.value);
         console.log(localStorage.getItem("myMajor"));
         enterMajorButton.disabled = false;
     }
+    // placeholder to test open file
+    open_file("myMajor");
 }
 
 function enter(){
@@ -44,8 +46,8 @@ function enter(){
     }
 }
 
+// open the file
 function open_file(majortype){
-    const fs = require("fs");
-    fs.readFile(majorsincluded.txt);
+    
 
 }
