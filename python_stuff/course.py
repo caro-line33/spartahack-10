@@ -6,3 +6,4 @@ class Course:
     Course.credits = int(Credits)
     Course.prereqs = list(Prereqs)
     Course.semesters = list(Semesters)
+
