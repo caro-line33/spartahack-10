@@ -23,3 +23,26 @@ const majorArray = [1, 2, 3, 4];
 const alreadyTaken = [2];
 
 console.log(coursesNeeded(majorArray, alreadyTaken));
+
+document.addEventListener('DOMContentLoaded', () => {
+    const majorOptions = document.getElementById('majorOptions');
+    const enterMajorButton = document.getElementById('enterMajorButton');
+    
+    if (enterMajorButton && majorOptions) {
+      enterMajorButton.addEventListener('click', storeMajor);
+    } else {
+      console.error("One or both of the required elements were not found.");
+    }
+    
+    function storeMajor(){
+        console.log(majorOptions.value);
+        localStorage.setItem('selectedMajor', selectedMajor);
+        console.log(localStorage[selectedMajor]);
+    }
+  });
+
+const majorOptions = document.getElementById('majorOptions');
+majorOptions.addEventListener('change', storeMajor);
+function storeMajor(){
+    console.log(majorOptions.value);
+}
