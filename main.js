@@ -23,7 +23,7 @@ enterMajorButton.disabled = true;
 
 function enter(){
     if(majorOptions.value){
-        console.log('next page!');
+        window.location.href = "page2.html"; 
     }
 }
 
