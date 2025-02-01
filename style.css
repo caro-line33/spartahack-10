@@ -33,3 +33,7 @@ select {
 select>option {
     background-color: #DCD9D9;
 }
+
+@view-transition{
+    navigation: auto;
+}
