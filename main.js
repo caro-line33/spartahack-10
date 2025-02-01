@@ -17,23 +17,31 @@ function coursesNeeded(majorReq, alreadyTaken) {
 }
 
 
+// Get all necessary DOM elements first
+const majorOptions = document.getElementById('majorOptions');
 const enterMajorButton = document.getElementById('enterMajorButton');
-enterMajorButton.addEventListener('click', enter)
+
+// Add event listener for the major selection change
+majorOptions.addEventListener('change', storeMajor);
+
+// Initially disable the "Enter" button
 enterMajorButton.disabled = true;
+
+// Event listener for the "Enter" button click
+enterMajorButton.addEventListener('click', enter);
+
+function storeMajor() {
+    if (majorOptions.value) {
+        console.log(majorOptions.value);
+        localStorage.setItem("myMajor", majorOptions.value);
+        // Use getItem() to retrieve the value from localStorage
+        console.log(localStorage.getItem("myMajor"));
+        enterMajorButton.disabled = false;
+    }
+}
 
 function enter(){
     if(majorOptions.value){
         window.location.href = "page2.html"; 
     }
 }
-
-const majorOptions = document.getElementById('majorOptions');
-majorOptions.addEventListener('change', storeMajor);
-function storeMajor(){
-    if(majorOptions.value){
-        console.log(majorOptions.value);
-        localStorage.setItem("myMajor", majorOptions.value);
-        enterMajorButton.disabled = false;
-    }
-}
-
