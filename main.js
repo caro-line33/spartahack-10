@@ -19,3 +19,11 @@ const majorArray = [1, 2, 3, 4];
 const alreadyTaken = [2];
 
 console.log(coursesNeeded(majorArray, alreadyTaken));
+
+const majorOptions = document.getElementById('majorOptions');
+const enterMajorButton = document.getElementById('enter-major');
+enterMajorButton.addEventListener('click', )
+
+function storeMajor(){
+    console.log(majorOptions.value);
+}
