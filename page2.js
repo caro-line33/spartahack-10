@@ -1,3 +1,9 @@
+// lisa added this
+window.addEventListener('load', function () {
+  document.body.classList.add('loaded');
+});
+
+// hi
 document.addEventListener("DOMContentLoaded", async () => {
     // Get the container element and the major from localStorage
     const classBank = document.getElementById('selectedCourses');

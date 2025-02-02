@@ -21,6 +21,13 @@ body {
     text-align: center;
     position: relative;
     overflow: hidden; /* Hide any excess GIF outside of the view */
+    transition: opacity 1.5s ease-in-out;
+    opacity: 0;
+
+}
+
+body.loaded {
+    opacity: 1;
 }
 
 /* Text Styling */
@@ -38,6 +45,8 @@ h2{
 }
 
 h3{
+    font-weight: 300; /* Lighter weight */
+
     letter-spacing: 1px;
     padding: 15px;
     color: #fff;

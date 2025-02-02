@@ -1,3 +1,9 @@
+// lisa added this
+window.addEventListener('load', function () {
+  document.body.classList.add('loaded');
+});
+
+//hello
 console.log('hello');
 const taken = localStorage.getItem('takenClasses');
 const classBank = document.getElementById('classBank');
