@@ -1,5 +1,6 @@
 console.log('hello');
 const taken = localStorage.getItem('takenClasses');
+const classBank = document.getElementById('classBank');
 console.log(taken);
 
 document.addEventListener("DOMContentLoaded", async () => {
@@ -27,8 +28,15 @@ document.addEventListener("DOMContentLoaded", async () => {
       data[myMajor].forEach((course) => {
         if (!takenClasses.includes(course.ClassCode)) {
           console.log(`${course.ClassCode} - ${course.ClassName}`);
+          let newItem = document.createElement('button');
+
+          newItem.innerHTML = `${course.ClassCode}, ${course.SemestersOffered}`;
+
+
         }
       });
+      classBank.appendChild(newItem);
+
     } catch (error) {
       console.error("Error fetching the JSON file:", error);
     }
