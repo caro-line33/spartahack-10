@@ -14,7 +14,8 @@ body {
     justify-content: center;
     min-height: 100vh;
     /* background: url('https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExcHRwd2ZmcDI5ajB6Z3ZwY3NraGp2MTZjejkwb3Fhemk2N2YybmF2YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/UYBDCJjwOd9Re/giphy.gif   ') repeat; Replace with your GIF URL */
-    background: black;
+    background-image: url('background.png'); /* Replace with your image file */
+    /* background: black; */
     background-size: cover; /* Ensure the GIF covers the whole screen */
     color: #fff;
     padding: 20px;
