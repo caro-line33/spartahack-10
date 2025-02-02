@@ -49,6 +49,14 @@ document.addEventListener("DOMContentLoaded", async () => {
         }); 
         prerequisitesMet = prereqs.every(prereq => takenClasses.includes(prereq));
       }
+      // else if concurrent length > 0
+        // for element in concurrent
+          // if !(in taken && original course in taken)
+          // reqs grouping = 0
+      
+      // check if reqs is only composed of 1's
+
+
       
       if (!prerequisitesMet) {
         console.log(`Prerequisites not met for ${course.ClassCode}`);
