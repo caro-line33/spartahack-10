@@ -67,23 +67,28 @@ button {
     padding: 10px 20px;
     font-size: 1rem;
     font-weight: 600;
-    color: #fff;
-    background: #007bff;
+    color: #a060ca;
+    background: #e4e4e4;
     border: none;
     border-radius: 8px;
     cursor: pointer;
     transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
 }
 
-button:hover {
-    background: #0056b3;
-    transform: scale(1.05);
-}
 
 button:active {
     transform: scale(0.95);
 }
 
+.selected{
+    background-color:#a060ca;
+    color: #e4e4e4;
+}
+
+.unselected{
+    background-color:rgb(230, 230, 230)
+
+}
 @view-transition{
     navigation: auto;
 }

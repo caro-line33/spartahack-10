@@ -37,11 +37,13 @@ document.addEventListener("DOMContentLoaded", async () => {
         newItem.addEventListener("click", () => {
           if (!selectedClasses.includes(course.ClassCode)){
             selectedClasses.push(course.ClassCode)
+            newItem.className = 'selected';
             console.log("Selected Classes:", selectedClasses)
           }
           else if (selectedClasses.includes(course.ClassCode)){
             index = selectedClasses.indexOf(course.ClassCode)
             selectedClasses.splice(index, 1)
+            newItem.className = 'unselected';
             console.log("Selected Classes:", selectedClasses)
           }
         })
