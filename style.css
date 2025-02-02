@@ -77,7 +77,7 @@ select {
     padding: 10px;
     font-size: 1rem;
     border: 2px solid #ccc;
-    border-radius: 8px;
+    border-radius: 15px;
     background: #fff;
     color: #333;
     outline: none;
@@ -318,10 +318,4 @@ button:not(.button):hover {
     font-size: 1rem;
     color: primary;
     font-weight:700;    
-  }
-
-
-/* reset input */
-.form__field{
-  &:required,&:invalid { box-shadow:none; }
-}
+  }}
