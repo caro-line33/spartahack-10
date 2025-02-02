@@ -45,8 +45,7 @@ window.addEventListener('load', function () {
           }
         });
 
-        // display required
-        console.log(needToTake)
+        // how to sort if something is required or not
         needToTake.forEach((course) => {
           if (course.Required == "yes") {
             console.log("Required: ", course.ClassCode)
