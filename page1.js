@@ -46,9 +46,3 @@ function enter(){
         window.location.href = "page2.html"; 
     }
 }
-
-// open the file
-function open_file(majortype){
-    
-
-}

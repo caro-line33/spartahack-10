@@ -1,86 +1,166 @@
 {
-    "Major": "EE",
-    "classes": [
-      {
-        "ClassCode": "ECE101",
-        "ClassName": "Introduction to Electrical and Computer Engineering",
-        "Credits": 1,
-        "Prerecs": [],
-        "Concurrents": [],
-        "SemestersOffered": ["F", "S", "A"]
-      },
-      {
-        "ClassCode": "ECE201",
-        "ClassName": "Circuits and Systems I",
-        "Credits": 3,
-        "Prerecs": [
-          ["CSE231", "EGR102", "CSE220"],
-          ["MTH234", "MTH254H", "LB220"]
-        ],
-        "Concurrents": ["CSE231", "EGR102", "CSE220", "MTH234", "MTH254H", "LB220"],
-        "SemestersOffered": ["F", "S", "A"]
-      },
-      {
-        "ClassCode": "ECE202",
-        "ClassName": "Circuits and Systems II",
-        "Credits": 3,
-        "Prerecs": [
-          ["ECE201"],
-          ["MTH235", "MTH340", "MTH347H"]
-        ],
-        "Concurrents": ["MTH235"],
-        "SemestersOffered": ["F", "S", "A"]
-      },
-      {
-        "ClassCode": "ECE203",
-        "ClassName": "Electric Circuits and Systems Laboratory",
-        "Credits": 1,
-        "Prerecs": [
-          ["ECE202"]
-        ],
-        "Concurrents": ["ECE202"],
-        "SemestersOffered": ["F", "S", "A"]
-      },
-      {
-        "ClassCode": "ECE230",
-        "ClassName": "Digital Logic Fundamentals",
-        "Credits": 3,
-        "Prerecs": [
-          ["CSE231", "CSE220"]
-        ],
-        "Concurrents": ["CSE231", "CSE220"],
-        "SemestersOffered": ["F", "S", "A"]
-      },
-      {
-        "ClassCode": "ECE280",
-        "ClassName": "Electrical engineering Analysis",
-        "Credits": 3,
-        "Prerecs": [
-          ["MTH234", "MTH234H"],
-          ["ECE201"]
-        ],
-        "Concurrents": ["ECE201"],
-        "SemestersOffered": ["F", "S", "A"]
-      },
-      {
-        "ClassCode": "CEM141",
-        "ClassName": "General Chemistry",
-        "Credits": 4,
-        "Prerecs": [
-          ["MTH103", "MTH110", "MTH116", "MTH124", "MTH132", "MTH152H", "LBS117", "LBS118"]
-        ],
-        "Concurrents": ["MTH103", "MTH110", "MTH116", "MTH124", "MTH132", "MTH152H", "LBS117", "LBS118"],
-        "SemestersOffered": ["F", "S", "A"]
-      },
-      {
-        "ClassCode": "PHY191",
-        "ClassName": "Physics Laboratory For Scientists, I",
-        "Credits": 1,
-        "Prerecs": [
-          ["PHY183", "PHY193H", "PHY183B"]
-        ],
-        "Concurrents": ["PHY183", "PHY183B", "PHY193H"],
-        "SemestersOffered": ["F", "A"]
-      }
-    ]
-  }
+  "Major": "EE",
+  "EE": [
+    {
+      "ClassCode": "ECE101",
+      "ClassName": "Introduction to Electrical and Computer Engineering",
+      "Credits": 1,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"]
+    },
+    {
+      "ClassCode": "ECE201",
+      "ClassName": "Circuits and Systems I",
+      "Credits": 3,
+      "Prerecs": [
+        ["CSE231", "EGR102", "CSE220"],
+        ["MTH234", "MTH254H", "LB220"]
+      ],
+      "Concurrents": ["CSE231", "EGR102", "CSE220", "MTH234", "MTH254H", "LB220"],
+      "SemestersOffered": ["F", "S", "A"]
+    },
+    {
+      "ClassCode": "ECE202",
+      "ClassName": "Circuits and Systems II",
+      "Credits": 3,
+      "Prerecs": [
+        ["ECE201"],
+        ["MTH235", "MTH340", "MTH347H"]
+      ],
+      "Concurrents": ["MTH235"],
+      "SemestersOffered": ["F", "S", "A"]
+    },
+    {
+      "ClassCode": "ECE203",
+      "ClassName": "Electric Circuits and Systems Laboratory",
+      "Credits": 1,
+      "Prerecs": [
+        ["ECE202"]
+      ],
+      "Concurrents": ["ECE202"],
+      "SemestersOffered": ["F", "S", "A"]
+    },
+    {
+      "ClassCode": "ECE230",
+      "ClassName": "Digital Logic Fundamentals",
+      "Credits": 3,
+      "Prerecs": [
+        ["CSE231", "CSE220"]
+      ],
+      "Concurrents": ["CSE231", "CSE220"],
+      "SemestersOffered": ["F", "S", "A"]
+    },
+    {
+      "ClassCode": "ECE280",
+      "ClassName": "Electrical engineering Analysis",
+      "Credits": 3,
+      "Prerecs": [
+        ["MTH234", "MTH234H"],
+        ["ECE201"]
+      ],
+      "Concurrents": ["ECE201"],
+      "SemestersOffered": ["F", "S", "A"]
+    },
+    {
+      "ClassCode": "CEM141",
+      "ClassName": "General Chemistry",
+      "Credits": 4,
+      "Prerecs": [
+        ["MTH103", "MTH110", "MTH116", "MTH124", "MTH132", "MTH152H", "LBS117", "LBS118"]
+      ],
+      "Concurrents": ["MTH103", "MTH110", "MTH116", "MTH124", "MTH132", "MTH152H", "LBS117", "LBS118"],
+      "SemestersOffered": ["F", "S", "A"]
+    },
+    {
+      "ClassCode": "PHY191",
+      "ClassName": "Physics Laboratory For Scientists, I",
+      "Credits": 1,
+      "Prerecs": [
+        ["PHY183", "PHY193H", "PHY183B"]
+      ],
+      "Concurrents": ["PHY183", "PHY183B", "PHY193H"],
+      "SemestersOffered": ["F", "A"]
+    }
+  ],
+  "ChE": [
+    {
+      "ClassCode": "ECE101",
+      "ClassName": "Introduction to Electrical and Computer Engineering",
+      "Credits": 1,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"]
+    }
+  ],
+  "ME": [
+    {
+      "ClassCode": "ECE101",
+      "ClassName": "Introduction to Electrical and Computer Engineering",
+      "Credits": 1,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"]
+    }
+  ],
+  "CE": [
+    {
+      "ClassCode": "ECE101",
+      "ClassName": "Introduction to Electrical and Computer Engineering",
+      "Credits": 1,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"]
+    }
+  ],
+  "CS": [
+    {
+      "ClassCode": "ECE101",
+      "ClassName": "Introduction to Electrical and Computer Engineering",
+      "Credits": 1,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"]
+    }
+  ],
+  "CSE": [
+    {
+      "ClassCode": "ECE101",
+      "ClassName": "Introduction to Electrical and Computer Engineering",
+      "Credits": 1,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"]
+    }
+  ],
+  "BE": [
+    {
+      "ClassCode": "ECE101",
+      "ClassName": "Introduction to Electrical and Computer Engineering",
+      "Credits": 1,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"]
+    }
+  ],
+  "AES": [
+    {
+      "ClassCode": "ECE101",
+      "ClassName": "Introduction to Electrical and Computer Engineering",
+      "Credits": 1,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"]
+    }
+  ],
+  "MSE": [
+    {
+      "ClassCode": "ECE101",
+      "ClassName": "Introduction to Electrical and Computer Engineering",
+      "Credits": 1,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"]
+    }
+  ]
+}
