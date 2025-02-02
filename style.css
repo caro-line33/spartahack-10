@@ -52,6 +52,14 @@ h3{
     color: #fff;
 }
 
+p{
+    font-weight: 300; /* Lighter weight */
+    letter-spacing: 1px;
+    font-size: 12px;
+    padding: 5px;
+    text-transform: uppercase;
+}
+
 /* Dropdown Styling */
 select {
     width: 100%;
@@ -76,7 +84,7 @@ button{
     --color: #FFF;
     padding: 0.8em 1.7em;
     background-color: transparent;
-    border-radius: .3em;
+    border-radius: 50px;
     position: relative;
     overflow: hidden;
     cursor: pointer;
@@ -96,7 +104,7 @@ button{
     --color: #FFF;
     padding: 0.8em 1.7em;
     background-color: transparent;
-    border-radius: .3em;
+    border-radius: 50px;
     position: relative;
     overflow: hidden;
     cursor: pointer;
@@ -158,62 +166,39 @@ button{
     background-color:rgb(230, 230, 230)
 } */
 .selected {
-    background-color: #a060ca;
+    background-color: transparent; /* Keep background transparent */
     color: #e4e4e4;
     padding: 0.8em 1.7em;
-    border-radius: .3em;
+    border-radius: 50px;
     position: relative;
     overflow: hidden;
     cursor: pointer;
     font-weight: 400;
     font-size: 17px;
-    border: 1px solid #a060ca;
+    border: 1px solid #e4e4e4; /* Change border to match glow */
     font-family: inherit;
     text-transform: uppercase;
     z-index: 1;
     margin: 15px;
-}
-
-.selected::before, .selected::after {
-    content: '';
-    display: block;
-    width: 50px;
-    height: 50px;
-    transform: translate(-50%, -50%);
-    position: absolute;
-    border-radius: 50%;
-    z-index: -1;
-    background-color: #e4e4e4;
-}
-
-.selected::before {
-    top: -1em;
-    left: -1em;
-}
-
-.selected::after {
-    left: calc(100% + 1em);
-    top: calc(100% + 1em);
-}
-
-.selected:hover::before, .selected:hover::after {
-    height: 410px;
-    width: 410px;
+    box-shadow: 0 0 10px 2px rgba(255, 255, 255, 0.8); /* White glow */
+    transition: box-shadow 0.3s ease-in-out;
 }
 
 .selected:hover {
-    color: rgb(10, 25, 30);
+    box-shadow: 0 0 20px 5px rgba(255, 255, 255, 1); /* Stronger glow on hover */
+    color: white;
 }
 
 .selected:active {
     filter: brightness(.8);
 }
 
+
 .unselected {
     background-color: transparent;
     color: #FFF; /* Adjust text color for unselected state */
     padding: 0.8em 1.7em;
-    border-radius: .3em;
+    border-radius: 50px;
     position: relative;
     overflow: hidden;
     cursor: pointer;
@@ -235,7 +220,6 @@ button{
     position: absolute;
     border-radius: 50%;
     z-index: -1;
-    background-color: #a060ca;
 }
 
 .unselected::before {
@@ -261,8 +245,3 @@ button{
     filter: brightness(.8);
 }
 
-
-
-@view-transition{
-    navigation: auto;
-}
