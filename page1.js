@@ -3,6 +3,7 @@ window.addEventListener('load', function () {
     document.body.classList.add('loaded');
 });
 // class constructor
+console.log('hey');
 
 class Course {
     constructor(coursecode, coursename, credits, prereqs, semesters) {
