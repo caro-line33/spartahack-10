@@ -3,14 +3,14 @@ window.addEventListener('load', function () {
     document.body.classList.add('loaded');
   });
   
-  //hello
-  console.log('hello');
   const taken = localStorage.getItem('takenClasses');
   const classBank = document.getElementById('classBank');
   console.log(taken);
   const courseBank = document.getElementById('courseBank');
   document.addEventListener("DOMContentLoaded", async () => {
-      const myMajor = localStorage.getItem("myMajor");
+  const myMajor = localStorage.getItem("myMajor");
+  let prerec_array = [];
+  let i = 0;
   
       const takenClassesStr = localStorage.getItem("takenClasses") || "";
       const takenClasses = takenClassesStr ? takenClassesStr.split(",") : [];
@@ -30,8 +30,8 @@ window.addEventListener('load', function () {
           console.error(`No data found for major: ${myMajor}`);
           return;
         }
-  
-        data[myMajor].forEach((course) => {
+        
+        data[myMajor].forEach((course, index) => {
           if (!takenClasses.includes(course.ClassCode)) {
             console.log(`${course.ClassCode} - ${course.ClassName}`);
             let reqClass = document.createElement('button');
@@ -43,17 +43,22 @@ window.addEventListener('load', function () {
           }
         });
 
-        course.Prerecs.forEach((grouping) => {
+        
+        data[myMajor].forEach((course, index) => {
+          course.Prerecs.forEach((grouping) => { 
             grouping.forEach((specificClass) => {
-              if (taken.includes(specificClass)){
+              if (taken.includes(specificClass)) {
                 console.log("Taken", specificClass)
-              }
+                prerec_array[grouping] = 1;
+                i++;
+              };    
             });
           });
-
+        });
+        console.log(prerec_array);
         classBank.appendChild(newItem);
   
       } catch (error) {
-        console.error("Error fetching the JSON file:", error);
+        console.error(error);
       }
     });
