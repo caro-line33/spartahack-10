@@ -376,6 +376,43 @@
   ],
   "ME": [
     {
+      "ClassCode": "MTH 132",
+      "ClassName": "Calculus I",
+      "Credits": 3,
+      "Prerecs": [
+      ],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "MTH 133",
+      "ClassName": "Calculus II",
+      "Credits": 4,
+      "Prerecs": ["MTH 132"],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "MTH 234",
+      "ClassName": "Calculus III",
+      "Credits": 4,
+      "Prerecs": ["MTH 133"],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "MTH 235",
+      "ClassName": "Differential Equations",
+      "Credits": 3,
+      "Prerecs": ["MTH 234"],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
       "ClassCode": "CE221",
       "ClassName": "Statics",
       "Credits": 3,
