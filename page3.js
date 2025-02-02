@@ -1,5 +1,6 @@
 console.log('hello');
 const taken = localStorage.getItem('takenClasses');
+const classBank = document.getElementById('classBank');
 console.log(taken);
 const courseBank = document.getElementById('courseBank');
 document.addEventListener("DOMContentLoaded", async () => {
@@ -30,8 +31,15 @@ document.addEventListener("DOMContentLoaded", async () => {
           let reqClass = document.createElement('button');
           reqClass.innerHTML = (`${course.ClassCode} - ${course.ClassName}`);
           classBank.appendChild(reqClass);
+          let newItem = document.createElement('button');
+
+          newItem.innerHTML = `${course.ClassCode}, ${course.SemestersOffered}`;
+
+
         }
       });
+      classBank.appendChild(newItem);
+
     } catch (error) {
       console.error("Error fetching the JSON file:", error);
     }
