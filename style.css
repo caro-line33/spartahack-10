@@ -199,8 +199,8 @@ button{
 }
 
 .unselected {
-    background-color: rgb(230, 230, 230);
-    color: #333; /* Adjust text color for unselected state */
+    background-color: transparent;
+    color: #FFF; /* Adjust text color for unselected state */
     padding: 0.8em 1.7em;
     border-radius: .3em;
     position: relative;
@@ -251,8 +251,6 @@ button{
 }
 
 
-    background-color:rgb(230, 230, 230);
-}
 
 @view-transition{
     navigation: auto;
