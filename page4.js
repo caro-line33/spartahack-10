@@ -39,10 +39,15 @@ document.addEventListener("DOMContentLoaded", async () => {
         continue;
       }
       
+      // check if all prerequisitives are fulfilled
       let prerequisitesMet = true;
-      if (course.Prerecs && course.Prerecs.length > 0) {
-        let flatPrereqs = course.Prerecs.flat(Infinity); // you should use a double nested loop to go through the prereqs, this doesnt do that it just makes it all into a big list.
-        prerequisitesMet = flatPrereqs.every(prereq => takenClasses.includes(prereq));
+      let prereqs = [];
+      if (course.Prerecs.length > 0) {
+        course.Prerecs.forEach(grouping => {
+          console.log("Grouping, ", grouping)
+          prereqs[grouping] = 1;
+        }); 
+        prerequisitesMet = prereqs.every(prereq => takenClasses.includes(prereq));
       }
       
       if (!prerequisitesMet) {
