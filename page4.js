@@ -49,9 +49,11 @@ window.addEventListener('load', function () {
         needToTake.forEach((course) => {
           if (course.Required == "yes") {
             console.log("Required: ", course.ClassCode)
+            let req = document.createElement('div');
           }
           else {
             console.log("Not Required: ", course.ClassCode)
+
           }
         })
 
