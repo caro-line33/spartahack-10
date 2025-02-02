@@ -59,6 +59,28 @@ select {
 
 
 /* Button Styling */
+
+/* normal button*/
+button{
+    --color: #FFF;
+    padding: 0.8em 1.7em;
+    background-color: transparent;
+    border-radius: .3em;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: .5s;
+    font-weight: 400;
+    font-size: 17px;
+    border: 1px solid;
+    font-family: inherit;
+    text-transform: uppercase;
+    color: var(--color);
+    z-index: 1;
+    margin: 15px;
+}
+
+/* everything else */
 .button {
     --color: #FFF;
     padding: 0.8em 1.7em;
@@ -114,13 +136,121 @@ select {
     filter: brightness(.8);
    }
    
+/* SELECT / UNSELECT BUTTON */
 
-.selected{
+/* .selected{
     background-color:#a060ca;
     color: #e4e4e4;
 }
 
 .unselected{
+    background-color:rgb(230, 230, 230)
+} */
+.selected {
+    background-color: #a060ca;
+    color: #e4e4e4;
+    padding: 0.8em 1.7em;
+    border-radius: .3em;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 17px;
+    border: 1px solid #a060ca;
+    font-family: inherit;
+    text-transform: uppercase;
+    z-index: 1;
+    margin: 15px;
+}
+
+.selected::before, .selected::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 50px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border-radius: 50%;
+    z-index: -1;
+    background-color: #e4e4e4;
+}
+
+.selected::before {
+    top: -1em;
+    left: -1em;
+}
+
+.selected::after {
+    left: calc(100% + 1em);
+    top: calc(100% + 1em);
+}
+
+.selected:hover::before, .selected:hover::after {
+    height: 410px;
+    width: 410px;
+}
+
+.selected:hover {
+    color: rgb(10, 25, 30);
+}
+
+.selected:active {
+    filter: brightness(.8);
+}
+
+.unselected {
+    background-color: rgb(230, 230, 230);
+    color: #333; /* Adjust text color for unselected state */
+    padding: 0.8em 1.7em;
+    border-radius: .3em;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 17px;
+    border: 1px solid rgb(230, 230, 230);
+    font-family: inherit;
+    text-transform: uppercase;
+    z-index: 1;
+    margin: 15px;
+}
+
+.unselected::before, .unselected::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 50px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border-radius: 50%;
+    z-index: -1;
+    background-color: #a060ca;
+}
+
+.unselected::before {
+    top: -1em;
+    left: -1em;
+}
+
+.unselected::after {
+    left: calc(100% + 1em);
+    top: calc(100% + 1em);
+}
+
+.unselected:hover::before, .unselected:hover::after {
+    height: 410px;
+    width: 410px;
+}
+
+.unselected:hover {
+    color: rgb(10, 25, 30);
+}
+
+.unselected:active {
+    filter: brightness(.8);
+}
+
+
     background-color:rgb(230, 230, 230);
 }
 
