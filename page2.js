@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", async () => {
             credits = credits + course.Credits;
             console.log("Credits: ", credits)
             totalCreditDisplay.innerHTML = `total credits: ${credits}`;
-            creditsRemaining.innerHTML = `total credits: ${128 - credits}`;
+            creditsRemaining.innerHTML = `credits remaining: ${128 - credits}`;
           }
           else if (selectedClasses.includes(course.ClassCode)){
             index = selectedClasses.indexOf(course.ClassCode)
@@ -61,7 +61,7 @@ document.addEventListener("DOMContentLoaded", async () => {
             credits = credits - course.Credits;
             console.log("Credits: ", credits)
             totalCreditDisplay.innerHTML = `total credits: ${credits}`;
-            creditsRemaining.innerHTML = `total credits: ${128 - credits}`;
+            creditsRemaining.innerHTML = `credits remaining: ${128 - credits}`;
 
           }
         })

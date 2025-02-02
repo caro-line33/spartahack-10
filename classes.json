@@ -11,6 +11,43 @@
       "Required": "no"
     },
     {
+      "ClassCode": "MTH 132",
+      "ClassName": "Calculus I",
+      "Credits": 3,
+      "Prerecs": [
+      ],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "MTH 133",
+      "ClassName": "Calculus II",
+      "Credits": 4,
+      "Prerecs": ["MTH 132"],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "MTH 234",
+      "ClassName": "Calculus III",
+      "Credits": 4,
+      "Prerecs": ["MTH 133"],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "MTH 235",
+      "ClassName": "Differential Equations",
+      "Credits": 3,
+      "Prerecs": ["MTH 234"],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
       "ClassCode": "ECE201",
       "ClassName": "Circuits and Systems I",
       "Credits": 3,
@@ -183,6 +220,43 @@
   ],
   "ChE": [
     {
+      "ClassCode": "MTH 132",
+      "ClassName": "Calculus I",
+      "Credits": 3,
+      "Prerecs": [
+      ],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "MTH 133",
+      "ClassName": "Calculus II",
+      "Credits": 4,
+      "Prerecs": ["MTH 132"],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "MTH 234",
+      "ClassName": "Calculus III",
+      "Credits": 4,
+      "Prerecs": ["MTH 133"],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "MTH 235",
+      "ClassName": "Differential Equations",
+      "Credits": 3,
+      "Prerecs": ["MTH 234"],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
       "ClassCode": "CHE201",
       "ClassName": "Material and Energy Balances",
       "Credits": 3,
@@ -316,7 +390,8 @@
       "Credits": 3,
       "Prerecs": [],
       "Concurrents": [],
-      "SemestersOffered": []
+      "SemestersOffered": [],
+      "Required": "yes"
     },
     {
       "ClassCode": "CEM161",
@@ -324,7 +399,8 @@
       "Credits": 1,
       "Prerecs": [],
       "Concurrents": [],
-      "SemestersOffered": []
+      "SemestersOffered": [],
+      "Required": "yes"
     },
     {
       "ClassCode": "ECE345",
@@ -332,7 +408,8 @@
       "Credits": 3,
       "Prerecs": [],
       "Concurrents": [],
-      "SemestersOffered": []
+      "SemestersOffered": [],
+      "Required": "yes"
     },
     {
       "ClassCode": "MSE250",
@@ -340,7 +417,8 @@
       "Credits": 3,
       "Prerecs": [],
       "Concurrents": [],
-      "SemestersOffered": []
+      "SemestersOffered": [],
+      "Required": "yes"
     },
     {
       "ClassCode": "STT351",
@@ -348,7 +426,8 @@
       "Credits": 3,
       "Prerecs": [],
       "Concurrents": [],
-      "SemestersOffered": []
+      "SemestersOffered": [],
+      "Required": "yes"
     },
     {
       "ClassCode": "ME280",
@@ -356,7 +435,8 @@
       "Credits": 2,
       "Prerecs": [],
       "Concurrents": [],
-      "SemestersOffered": []
+      "SemestersOffered": [],
+      "Required": "yes"
     },
     {
       "ClassCode": "ME222",
@@ -364,7 +444,8 @@
       "Credits": 3,
       "Prerecs": [],
       "Concurrents": [],
-      "SemestersOffered": []
+      "SemestersOffered": [],
+      "Required": "yes"
     },
     {
       "ClassCode": "ME201",
@@ -372,7 +453,8 @@
       "Credits": 3,
       "Prerecs": [],
       "Concurrents": [],
-      "SemestersOffered": []
+      "SemestersOffered": [],
+      "Required": "yes"
     },
     {
       "ClassCode": "ME300",
@@ -380,7 +462,8 @@
       "Credits": 1,
       "Prerecs": [],
       "Concurrents": [],
-      "SemestersOffered": []
+      "SemestersOffered": [],
+      "Required": "yes"
     },
     {
       "ClassCode": "ME333",
@@ -388,7 +471,8 @@
       "Credits": 3,
       "Prerecs": [],
       "Concurrents": [],
-      "SemestersOffered": []
+      "SemestersOffered": [],
+      "Required": "yes"
     },
     {
       "ClassCode": "ME333L",
@@ -396,7 +480,8 @@
       "Credits": 1,
       "Prerecs": [],
       "Concurrents": [],
-      "SemestersOffered": []
+      "SemestersOffered": [],
+      "Required": "yes"
     },
     {
       "ClassCode": "ME361",
@@ -404,7 +489,8 @@
       "Credits": 3,
       "Prerecs": [],
       "Concurrents": [],
-      "SemestersOffered": []
+      "SemestersOffered": [],
+      "Required": "yes"
     },
     {
       "ClassCode": "ME370",
@@ -412,7 +498,8 @@
       "Credits": 3,
       "Prerecs": [],
       "Concurrents": [],
-      "SemestersOffered": []
+      "SemestersOffered": [],
+      "Required": "yes"
     },
     {
       "ClassCode": "ME391",
@@ -420,7 +507,8 @@
       "Credits": 3,
       "Prerecs": [],
       "Concurrents": [],
-      "SemestersOffered": []
+      "SemestersOffered": [],
+      "Required": "yes"
     },
     {
       "ClassCode": "ME410",
@@ -428,7 +516,8 @@
       "Credits": 3,
       "Prerecs": [],
       "Concurrents": [],
-      "SemestersOffered": []
+      "SemestersOffered": [],
+      "Required": "yes"
     },
     {
       "ClassCode": "ME412",
@@ -481,6 +570,43 @@
   ],
   "CE": [
     {
+      "ClassCode": "MTH 132",
+      "ClassName": "Calculus I",
+      "Credits": 3,
+      "Prerecs": [
+      ],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "MTH 133",
+      "ClassName": "Calculus II",
+      "Credits": 4,
+      "Prerecs": ["MTH 132"],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "MTH 234",
+      "ClassName": "Calculus III",
+      "Credits": 4,
+      "Prerecs": ["MTH 133"],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "MTH 235",
+      "ClassName": "Differential Equations",
+      "Credits": 3,
+      "Prerecs": ["MTH 234"],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
       "ClassCode": "CE101",
       "ClassName": "Introduction to Civil Engineering",
       "Credits": 3,
@@ -491,6 +617,43 @@
     }
   ],
   "CS": [
+    {
+      "ClassCode": "MTH 132",
+      "ClassName": "Calculus I",
+      "Credits": 3,
+      "Prerecs": [
+      ],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "MTH 133",
+      "ClassName": "Calculus II",
+      "Credits": 4,
+      "Prerecs": ["MTH 132"],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "MTH 234",
+      "ClassName": "Calculus III",
+      "Credits": 4,
+      "Prerecs": ["MTH 133"],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "MTH 235",
+      "ClassName": "Differential Equations",
+      "Credits": 3,
+      "Prerecs": ["MTH 234"],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
     {
       "ClassCode": "BS161",
       "ClassName": "Cell and Molecular Biology",
@@ -507,7 +670,7 @@
       "Prerecs": [],
       "Concurrents": [],
       "SemestersOffered": ["F", "S", "A"],
-      "Required": "yes"
+      "Required": "no"
     },
     {
       "ClassCode": "IBIO150",
@@ -516,7 +679,7 @@
       "Prerecs": [],
       "Concurrents": [],
       "SemestersOffered": ["F", "S", "A"],
-      "Required": "yes"
+      "Required": "no"
     },
     {
       "ClassCode": "MMG141",
@@ -525,7 +688,7 @@
       "Prerecs": [],
       "Concurrents": [],
       "SemestersOffered": ["F", "S", "A"],
-      "Required": "yes"
+      "Required": "no"
     },
     {
       "ClassCode": "MMG201",
@@ -534,7 +697,7 @@
       "Prerecs": [],
       "Concurrents": [],
       "SemestersOffered": ["F", "S", "A"],
-      "Required": "yes"
+      "Required": "no"
     },
     {
       "ClassCode": "PLB105",
@@ -543,7 +706,7 @@
       "Prerecs": [],
       "Concurrents": [],
       "SemestersOffered": ["F", "S", "A"],
-      "Required": "yes"
+      "Required": "no"
     },
     {
       "ClassCode": "PSL250",
@@ -552,7 +715,7 @@
       "Prerecs": [],
       "Concurrents": [],
       "SemestersOffered": ["F", "S", "A"],
-      "Required": "yes"
+      "Required": "no"
     },
     {
       "ClassCode": "BS171",
@@ -561,7 +724,7 @@
       "Prerecs": [],
       "Concurrents": [],
       "SemestersOffered": ["F", "S", "A"],
-      "Required": "yes"
+      "Required": "no"
     },
     {
       "ClassCode": "CEM161",
@@ -579,7 +742,7 @@
       "Prerecs": [],
       "Concurrents": [],
       "SemestersOffered": ["F", "S", "A"],
-      "Required": "yes"
+      "Required": "no"
     },
     {
       "ClassCode": "PHY191",
@@ -588,7 +751,7 @@
       "Prerecs": [],
       "Concurrents": [],
       "SemestersOffered": ["F", "S", "A"],
-      "Required": "yes"
+      "Required": "no"
     },
     {
       "ClassCode": "PHY192",
@@ -597,7 +760,7 @@
       "Prerecs": [],
       "Concurrents": [],
       "SemestersOffered": ["F", "S", "A"],
-      "Required": "yes"
+      "Required": "no"
     },
     {
       "ClassCode": "PLB106",
@@ -606,7 +769,7 @@
       "Prerecs": [],
       "Concurrents": [],
       "SemestersOffered": ["F", "S", "A"],
-      "Required": "yes"
+      "Required": "no"
     },
     {
       "ClassCode": "CSE232",
@@ -883,6 +1046,43 @@
   ],
   "BE": [
     {
+      "ClassCode": "MTH 132",
+      "ClassName": "Calculus I",
+      "Credits": 3,
+      "Prerecs": [
+      ],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "MTH 133",
+      "ClassName": "Calculus II",
+      "Credits": 4,
+      "Prerecs": ["MTH 132"],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "MTH 234",
+      "ClassName": "Calculus III",
+      "Credits": 4,
+      "Prerecs": ["MTH 133"],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "MTH 235",
+      "ClassName": "Differential Equations",
+      "Credits": 3,
+      "Prerecs": ["MTH 234"],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
       "ClassCode": "BE101",
       "ClassName": "Introduction to Biosystems Engineering",
       "Credits": 3,
@@ -894,6 +1094,43 @@
   ],
   "AES": [
     {
+      "ClassCode": "MTH 132",
+      "ClassName": "Calculus I",
+      "Credits": 3,
+      "Prerecs": [
+      ],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "MTH 133",
+      "ClassName": "Calculus II",
+      "Credits": 4,
+      "Prerecs": ["MTH 132"],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "MTH 234",
+      "ClassName": "Calculus III",
+      "Credits": 4,
+      "Prerecs": ["MTH 133"],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "MTH 235",
+      "ClassName": "Differential Equations",
+      "Credits": 3,
+      "Prerecs": ["MTH 234"],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
       "ClassCode": "AES101",
       "ClassName": "Introduction to Applied Engineering Sciences",
       "Credits": 3,
@@ -904,6 +1141,43 @@
     }
   ],
   "MSE": [
+    {
+      "ClassCode": "MTH 132",
+      "ClassName": "Calculus I",
+      "Credits": 3,
+      "Prerecs": [
+      ],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "MTH 133",
+      "ClassName": "Calculus II",
+      "Credits": 4,
+      "Prerecs": ["MTH 132"],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "MTH 234",
+      "ClassName": "Calculus III",
+      "Credits": 4,
+      "Prerecs": ["MTH 133"],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "MTH 235",
+      "ClassName": "Differential Equations",
+      "Credits": 3,
+      "Prerecs": ["MTH 234"],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
     {
       "ClassCode": "MSE101",
       "ClassName": "Introduction to Materials Science",
