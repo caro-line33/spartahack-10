@@ -39,9 +39,18 @@ window.addEventListener('load', function () {
             classBank.appendChild(reqClass);
             let newItem = document.createElement('button');
             newItem.innerHTML = `${course.ClassCode}, ${course.SemestersOffered}`;
-  
+            
           }
         });
+
+        course.Prerecs.forEach((grouping) => {
+            grouping.forEach((specificClass) => {
+              if (taken.includes(specificClass)){
+                console.log("Taken", specificClass)
+              }
+            });
+          });
+
         classBank.appendChild(newItem);
   
       } catch (error) {
