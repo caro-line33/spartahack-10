@@ -1,7 +1,7 @@
 console.log('hello');
 const taken = localStorage.getItem('takenClasses');
 console.log(taken);
-
+const courseBank = document.getElementById('courseBank');
 document.addEventListener("DOMContentLoaded", async () => {
     const myMajor = localStorage.getItem("myMajor");
 
@@ -27,6 +27,9 @@ document.addEventListener("DOMContentLoaded", async () => {
       data[myMajor].forEach((course) => {
         if (!takenClasses.includes(course.ClassCode)) {
           console.log(`${course.ClassCode} - ${course.ClassName}`);
+          let reqClass = document.createElement('button');
+          reqClass.innerHTML = (`${course.ClassCode} - ${course.ClassName}`);
+          classBank.appendChild(reqClass);
         }
       });
     } catch (error) {
