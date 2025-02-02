@@ -3,7 +3,8 @@ window.addEventListener('load', function () {
     document.body.classList.add('loaded');
   });
   
-  const taken = localStorage.getItem('takenClasses');
+  let taken = localStorage.getItem('takenClasses');
+  let creditsNeeded = 125 - localStorage.getItem('totalCredits')
   const classBank = document.getElementById('classBank');
   console.log(taken);
   const courseBank = document.getElementById('courseBank');
@@ -12,6 +13,7 @@ window.addEventListener('load', function () {
   let prerec_array = [];
   let i = 0;
   let needToTake = [];
+  const requiredBank = document.getElementById('requiredCourses')
   
       const takenClassesStr = localStorage.getItem("takenClasses") || "";
       const takenClasses = takenClassesStr ? takenClassesStr.split(",") : [];
@@ -50,6 +52,10 @@ window.addEventListener('load', function () {
           if (course.Required == "yes") {
             console.log("Required: ", course.ClassCode)
             let req = document.createElement('div');
+            req.innerHTML = course.ClassCode;
+            requiredBank.appendChild(req);
+
+
           }
           else {
             console.log("Not Required: ", course.ClassCode)

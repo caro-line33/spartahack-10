@@ -9,6 +9,8 @@ document.addEventListener("DOMContentLoaded", async () => {
     const classBank = document.getElementById('selectedCourses');
     const myMajor = localStorage.getItem('myMajor'); // e.g., "EE"
     const confirmClasses = document.getElementById('confirmClasses');
+    const totalCreditDisplay = document.getElementById('totalCreditDisplay');
+    const creditsRemaining = document.getElementById('creditsRemaining');
     var credits = 0;
     let selectedClasses = [];
     
@@ -48,6 +50,8 @@ document.addEventListener("DOMContentLoaded", async () => {
             console.log("Selected Classes:", selectedClasses)
             credits = credits + course.Credits;
             console.log("Credits: ", credits)
+            totalCreditDisplay.innerHTML = `total credits: ${credits}`;
+            creditsRemaining.innerHTML = `total credits: ${128 - credits}`;
           }
           else if (selectedClasses.includes(course.ClassCode)){
             index = selectedClasses.indexOf(course.ClassCode)
@@ -56,6 +60,9 @@ document.addEventListener("DOMContentLoaded", async () => {
             console.log("Selected Classes:", selectedClasses)
             credits = credits - course.Credits;
             console.log("Credits: ", credits)
+            totalCreditDisplay.innerHTML = `total credits: ${credits}`;
+            creditsRemaining.innerHTML = `total credits: ${128 - credits}`;
+
           }
         })
         // Append the new button to the classBank container

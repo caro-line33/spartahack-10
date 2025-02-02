@@ -107,190 +107,376 @@
       "Concurrents": [],
       "SemestersOffered": ["F", "S"],
       "Required": "no"
+    },
+    {
+      "ClassCode": "ECE303",
+      "ClassName": "Electronics Laboratory",
+      "Credits": 1,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "ECE305",
+      "ClassName": "Electromagnetic Fields and Waves I",
+      "Credits": 4,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "ECE313",
+      "ClassName": "Control Systems",
+      "Credits": 3,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "ECE320",
+      "ClassName": "Energy Conversion and Power Electronics",
+      "Credits": 3,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "ECE331",
+      "ClassName": "Microprocessors and Digital Systems",
+      "Credits": 4,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "ECE366",
+      "ClassName": "Introduction to Signal Processing",
+      "Credits": 3,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "ECE377",
+      "ClassName": "Principles of Electronic Devices",
+      "Credits": 3,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "ECE390",
+      "ClassName": "Ethics, Professionalism and Contemporary Issues",
+      "Credits": 1,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
     }
   ],
   "ChE": [
     {
-      "ClassCode": "ChE101",
-      "ClassName": "Introduction to Chemical Engineering",
+      "ClassCode": "CHE201",
+      "ClassName": "Material and Energy Balances",
       "Credits": 3,
       "Prerecs": [],
       "Concurrents": [],
-      "SemestersOffered": ["F", "S"],
+      "SemestersOffered": ["F", "S", "A"],
       "Required": "yes"
     },
     {
-      "ClassCode": "ChE201",
-      "ClassName": "Chemical Process Principles",
+      "ClassCode": "CHE210",
+      "ClassName": "Modeling and Analysis of Transport Phenomena",
       "Credits": 3,
-      "Prerecs": ["ChE101"],
+      "Prerecs": [],
       "Concurrents": [],
-      "SemestersOffered": ["F", "S"],
+      "SemestersOffered": ["F", "S", "A"],
       "Required": "yes"
     },
     {
-      "ClassCode": "ChE301",
-      "ClassName": "Thermodynamics for Chemical Engineers",
+      "ClassCode": "CHE301",
+      "ClassName": "Chemical Engineering as a Profession",
+      "Credits": 1,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "CHE311",
+      "ClassName": "Fluid Flow and Heat Transfer",
       "Credits": 3,
-      "Prerecs": ["ChE201"],
+      "Prerecs": [],
       "Concurrents": [],
-      "SemestersOffered": ["F"],
+      "SemestersOffered": ["F", "S", "A"],
       "Required": "yes"
     },
     {
-      "ClassCode": "ChE302",
-      "ClassName": "Chemical Engineering Thermodynamics",
-      "Credits": 3,
-      "Prerecs": ["ChE301"],
+      "ClassCode": "CHE312",
+      "ClassName": "Mass Transfer and Separations",
+      "Credits": 4,
+      "Prerecs": [],
       "Concurrents": [],
-      "SemestersOffered": ["S"],
+      "SemestersOffered": ["F", "S", "A"],
       "Required": "yes"
     },
     {
-      "ClassCode": "ChE303",
-      "ClassName": "Process Control",
-      "Credits": 3,
-      "Prerecs": ["ChE201"],
+      "ClassCode": "CHE316",
+      "ClassName": "Laboratory Practice and Statistical Analysis",
+      "Credits": 4,
+      "Prerecs": [],
       "Concurrents": [],
-      "SemestersOffered": ["F"],
+      "SemestersOffered": ["F", "S", "A"],
       "Required": "yes"
     },
     {
-      "ClassCode": "ChE304",
+      "ClassCode": "CHE321",
+      "ClassName": "Thermodynamics for Chemical Engineering",
+      "Credits": 4,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "CHE431",
       "ClassName": "Chemical Reaction Engineering",
-      "Credits": 3,
-      "Prerecs": ["ChE301"],
+      "Credits": 4,
+      "Prerecs": [],
       "Concurrents": [],
-      "SemestersOffered": ["F", "S"],
+      "SemestersOffered": ["F", "S", "A"],
       "Required": "yes"
     },
     {
-      "ClassCode": "ChE305",
-      "ClassName": "Mass Transfer",
+      "ClassCode": "CHE432",
+      "ClassName": "Process Analysis and Control",
       "Credits": 3,
-      "Prerecs": ["ChE304"],
+      "Prerecs": [],
       "Concurrents": [],
-      "SemestersOffered": ["S"],
+      "SemestersOffered": ["F", "S", "A"],
       "Required": "yes"
     },
     {
-      "ClassCode": "ChE306",
-      "ClassName": "Separation Processes",
-      "Credits": 3,
-      "Prerecs": ["ChE305"],
+      "ClassCode": "CHE433",
+      "ClassName": "Process Design and Optimization I",
+      "Credits": 4,
+      "Prerecs": [],
       "Concurrents": [],
-      "SemestersOffered": ["F"],
+      "SemestersOffered": ["F", "S", "A"],
       "Required": "yes"
     },
     {
-      "ClassCode": "ChE307",
-      "ClassName": "Process Simulation",
-      "Credits": 3,
-      "Prerecs": ["ChE306"],
+      "ClassCode": "CHE434",
+      "ClassName": "Process Design and Optimization II",
+      "Credits": 2,
+      "Prerecs": [],
       "Concurrents": [],
-      "SemestersOffered": ["F"],
+      "SemestersOffered": ["F", "S", "A"],
       "Required": "yes"
     },
     {
-      "ClassCode": "ChE308",
-      "ClassName": "Design of Chemical Processes",
+      "ClassCode": "CHE473",
+      "ClassName": "Chemical Engineering Principles in Polymers and Material Systems",
       "Credits": 3,
-      "Prerecs": ["ChE307"],
+      "Prerecs": [],
       "Concurrents": [],
-      "SemestersOffered": ["S"],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "CHE472",
+      "ClassName": "Polymeric Composite Materials Processing",
+      "Credits": 3,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "CHE481",
+      "ClassName": "Biochemical Engineering",
+      "Credits": 3,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
       "Required": "yes"
     }
   ],
   "ME": [
     {
-      "ClassCode": "ME101",
-      "ClassName": "Introduction to Mechanical Engineering",
+      "ClassCode": "CE221",
+      "ClassName": "Statics",
       "Credits": 3,
       "Prerecs": [],
       "Concurrents": [],
-      "SemestersOffered": ["F", "S"],
-      "Required": "yes"
+      "SemestersOffered": []
+    },
+    {
+      "ClassCode": "CEM161",
+      "ClassName": "Chemistry Laboratory I",
+      "Credits": 1,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": []
+    },
+    {
+      "ClassCode": "ECE345",
+      "ClassName": "Electronic Instrumentation and Systems",
+      "Credits": 3,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": []
+    },
+    {
+      "ClassCode": "MSE250",
+      "ClassName": "Materials Science and Engineering",
+      "Credits": 3,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": []
+    },
+    {
+      "ClassCode": "STT351",
+      "ClassName": "Probability and Statistics for Engineering",
+      "Credits": 3,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": []
+    },
+    {
+      "ClassCode": "ME280",
+      "ClassName": "Graphic Communications",
+      "Credits": 2,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": []
+    },
+    {
+      "ClassCode": "ME222",
+      "ClassName": "Mechanics of Deformable Solids",
+      "Credits": 3,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": []
     },
     {
       "ClassCode": "ME201",
-      "ClassName": "Statics",
-      "Credits": 3,
-      "Prerecs": ["ME101"],
-      "Concurrents": [],
-      "SemestersOffered": ["F"],
-      "Required": "yes"
-    },
-    {
-      "ClassCode": "ME301",
-      "ClassName": "Fluid Mechanics",
-      "Credits": 3,
-      "Prerecs": ["ME201"],
-      "Concurrents": [],
-      "SemestersOffered": ["S"],
-      "Required": "yes"
-    },
-    {
-      "ClassCode": "ME302",
-      "ClassName": "Dynamics",
-      "Credits": 3,
-      "Prerecs": ["ME201"],
-      "Concurrents": [],
-      "SemestersOffered": ["F"],
-      "Required": "yes"
-    },
-    {
-      "ClassCode": "ME303",
-      "ClassName": "Mechanics of Materials",
-      "Credits": 3,
-      "Prerecs": ["ME101"],
-      "Concurrents": [],
-      "SemestersOffered": ["S"],
-      "Required": "yes"
-    },
-    {
-      "ClassCode": "ME304",
-      "ClassName": "Machine Design",
-      "Credits": 3,
-      "Prerecs": ["ME303"],
-      "Concurrents": [],
-      "SemestersOffered": ["F"],
-      "Required": "yes"
-    },
-    {
-      "ClassCode": "ME305",
       "ClassName": "Thermodynamics",
       "Credits": 3,
-      "Prerecs": ["ME201"],
+      "Prerecs": [],
       "Concurrents": [],
-      "SemestersOffered": ["S"],
-      "Required": "yes"
+      "SemestersOffered": []
     },
     {
-      "ClassCode": "ME306",
+      "ClassCode": "ME300",
+      "ClassName": "Professional Issues in Mechanical Engineering",
+      "Credits": 1,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": []
+    },
+    {
+      "ClassCode": "ME333",
+      "ClassName": "Fluid Mechanics",
+      "Credits": 3,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": []
+    },
+    {
+      "ClassCode": "ME333L",
+      "ClassName": "Fluid Mechanics Laboratory",
+      "Credits": 1,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": []
+    },
+    {
+      "ClassCode": "ME361",
+      "ClassName": "Dynamics",
+      "Credits": 3,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": []
+    },
+    {
+      "ClassCode": "ME370",
+      "ClassName": "Mechanical Design and Manufacturing I",
+      "Credits": 3,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": []
+    },
+    {
+      "ClassCode": "ME391",
+      "ClassName": "Mechanical Engineering Analysis",
+      "Credits": 3,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": []
+    },
+    {
+      "ClassCode": "ME410",
       "ClassName": "Heat Transfer",
       "Credits": 3,
-      "Prerecs": ["ME201"],
+      "Prerecs": [],
       "Concurrents": [],
-      "SemestersOffered": ["F"],
-      "Required": "yes"
+      "SemestersOffered": []
     },
     {
-      "ClassCode": "ME307",
+      "ClassCode": "ME412",
+      "ClassName": "Heat Transfer Laboratory",
+      "Credits": 2,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": []
+    },
+    {
+      "ClassCode": "ME452",
       "ClassName": "Control Systems",
       "Credits": 3,
-      "Prerecs": ["ME305"],
+      "Prerecs": [],
       "Concurrents": [],
-      "SemestersOffered": ["S"],
-      "Required": "yes"
+      "SemestersOffered": []
     },
     {
-      "ClassCode": "ME308",
-      "ClassName": "Finite Element Analysis",
-      "Credits": 3,
-      "Prerecs": ["ME304"],
+      "ClassCode": "ME452L",
+      "ClassName": "Vibrations and Controls Laboratory",
+      "Credits": 1,
+      "Prerecs": [],
       "Concurrents": [],
-      "SemestersOffered": ["F"],
-      "Required": "yes"
+      "SemestersOffered": []
+    },
+    {
+      "ClassCode": "ME461",
+      "ClassName": "Mechanical Vibrations",
+      "Credits": 3,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": []
+    },
+    {
+      "ClassCode": "ME470",
+      "ClassName": "Mechanical Design and Manufacturing II",
+      "Credits": 3,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": []
+    },
+    {
+      "ClassCode": "ME481",
+      "ClassName": "Mechanical Engineering Design Projects",
+      "Credits": 3,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": []
     }
   ],
   "CE": [
@@ -302,270 +488,396 @@
       "Concurrents": [],
       "SemestersOffered": ["F", "S"],
       "Required": "yes"
-    },
-    {
-      "ClassCode": "CE201",
-      "ClassName": "Surveying",
-      "Credits": 3,
-      "Prerecs": ["CE101"],
-      "Concurrents": [],
-      "SemestersOffered": ["F"],
-      "Required": "yes"
-    },
-    {
-      "ClassCode": "CE301",
-      "ClassName": "Structural Analysis",
-      "Credits": 3,
-      "Prerecs": ["CE201"],
-      "Concurrents": [],
-      "SemestersOffered": ["S"],
-      "Required": "yes"
-    },
-    {
-      "ClassCode": "CE302",
-      "ClassName": "Concrete Design",
-      "Credits": 3,
-      "Prerecs": ["CE101"],
-      "Concurrents": [],
-      "SemestersOffered": ["F"],
-      "Required": "yes"
-    },
-    {
-      "ClassCode": "CE303",
-      "ClassName": "Transportation Engineering",
-      "Credits": 3,
-      "Prerecs": ["CE201"],
-      "Concurrents": [],
-      "SemestersOffered": ["S"],
-      "Required": "yes"
-    },
-    {
-      "ClassCode": "CE304",
-      "ClassName": "Water Resources Engineering",
-      "Credits": 3,
-      "Prerecs": ["CE101"],
-      "Concurrents": [],
-      "SemestersOffered": ["F"],
-      "Required": "yes"
-    },
-    {
-      "ClassCode": "CE305",
-      "ClassName": "Geotechnical Engineering",
-      "Credits": 3,
-      "Prerecs": ["CE101"],
-      "Concurrents": [],
-      "SemestersOffered": ["S"],
-      "Required": "yes"
-    },
-    {
-      "ClassCode": "CE306",
-      "ClassName": "Structural Dynamics",
-      "Credits": 3,
-      "Prerecs": ["CE301"],
-      "Concurrents": [],
-      "SemestersOffered": ["F"],
-      "Required": "yes"
-    },
-    {
-      "ClassCode": "CE307",
-      "ClassName": "Urban Planning",
-      "Credits": 3,
-      "Prerecs": ["CE101"],
-      "Concurrents": [],
-      "SemestersOffered": ["S"],
-      "Required": "yes"
-    },
-    {
-      "ClassCode": "CE308",
-      "ClassName": "Environmental Engineering",
-      "Credits": 3,
-      "Prerecs": ["CE201"],
-      "Concurrents": [],
-      "SemestersOffered": ["F"],
-      "Required": "yes"
     }
   ],
   "CS": [
     {
-      "ClassCode": "CS101",
-      "ClassName": "Introduction to Computer Science",
-      "Credits": 4,
+      "ClassCode": "BS161",
+      "ClassName": "Cell and Molecular Biology",
+      "Credits": 3,
       "Prerecs": [],
-      "Concurrents": "None",
+      "Concurrents": [],
       "SemestersOffered": ["F", "S", "A"],
       "Required": "yes"
     },
     {
-      "ClassCode": "CS201",
-      "ClassName": "Data Structures",
-      "Credits": 4,
-      "Prerecs": ["CS101"],
-      "Concurrents": "None",
-      "SemestersOffered": ["F", "S"],
+      "ClassCode": "ENT205",
+      "ClassName": "Pests, Society and Environment",
+      "Credits": 3,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
       "Required": "yes"
     },
     {
-      "ClassCode": "CS301",
-      "ClassName": "Algorithms",
-      "Credits": 4,
-      "Prerecs": ["CS201"],
-      "Concurrents": "None",
-      "SemestersOffered": ["F"],
+      "ClassCode": "IBIO150",
+      "ClassName": "Integrating Biology: From DNA to Populations",
+      "Credits": 3,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
       "Required": "yes"
     },
     {
-      "ClassCode": "CS302",
-      "ClassName": "Operating Systems",
-      "Credits": 4,
-      "Prerecs": ["CS201"],
-      "Concurrents": "None",
-      "SemestersOffered": ["S"],
+      "ClassCode": "MMG141",
+      "ClassName": "Introductory Human Genetics",
+      "Credits": 3,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
       "Required": "yes"
     },
     {
-      "ClassCode": "CS303",
-      "ClassName": "Database Systems",
-      "Credits": 4,
-      "Prerecs": ["CS201"],
-      "Concurrents": "None",
-      "SemestersOffered": ["F"],
+      "ClassCode": "MMG201",
+      "ClassName": "Fundamentals of Microbiology",
+      "Credits": 3,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
       "Required": "yes"
     },
     {
-      "ClassCode": "CS304",
-      "ClassName": "Computer Networks",
-      "Credits": 4,
-      "Prerecs": ["CS201"],
-      "Concurrents": "None",
-      "SemestersOffered": ["S"],
+      "ClassCode": "PLB105",
+      "ClassName": "Plant Biology",
+      "Credits": 3,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
       "Required": "yes"
     },
     {
-      "ClassCode": "CS305",
-      "ClassName": "Software Engineering",
+      "ClassCode": "PSL250",
+      "ClassName": "Introductory Physiology",
       "Credits": 4,
-      "Prerecs": ["CS201"],
-      "Concurrents": "None",
-      "SemestersOffered": ["F"],
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
       "Required": "yes"
     },
     {
-      "ClassCode": "CS306",
-      "ClassName": "Artificial Intelligence",
-      "Credits": 4,
-      "Prerecs": ["CS201"],
-      "Concurrents": "None",
-      "SemestersOffered": ["S"],
+      "ClassCode": "BS171",
+      "ClassName": "Cell and Molecular Biology Laboratory",
+      "Credits": 2,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
       "Required": "yes"
     },
     {
-      "ClassCode": "CS307",
-      "ClassName": "Machine Learning",
-      "Credits": 4,
-      "Prerecs": ["CS201"],
-      "Concurrents": "None",
-      "SemestersOffered": ["F"],
+      "ClassCode": "CEM161",
+      "ClassName": "Chemistry Laboratory I",
+      "Credits": 1,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
       "Required": "yes"
     },
     {
-      "ClassCode": "CS308",
-      "ClassName": "Computer Security",
+      "ClassCode": "CEM162",
+      "ClassName": "Chemistry Laboratory II",
+      "Credits": 1,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "PHY191",
+      "ClassName": "Physics Laboratory for Scientists, I",
+      "Credits": 1,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "PHY192",
+      "ClassName": "Physics Laboratory for Scientists, II",
+      "Credits": 1,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "PLB106",
+      "ClassName": "Plant Biology Laboratory",
+      "Credits": 1,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "CSE232",
+      "ClassName": "Introduction to Programming II",
       "Credits": 4,
-      "Prerecs": ["CS201"],
-      "Concurrents": "None",
-      "SemestersOffered": ["S"],
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "CSE260",
+      "ClassName": "Discrete Structures in Computer Science",
+      "Credits": 4,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "CSE300",
+      "ClassName": "Social, Ethical, and Professional Issues in Computing",
+      "Credits": 1,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "CSE320",
+      "ClassName": "Computer Organization and Architecture",
+      "Credits": 3,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "CSE325",
+      "ClassName": "Computer Systems",
+      "Credits": 3,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "CSE331",
+      "ClassName": "Algorithms and Data Structures",
+      "Credits": 3,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "CSE335",
+      "ClassName": "Object-Oriented Software Design",
+      "Credits": 4,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "CSE380",
+      "ClassName": "Information Management and the Cloud",
+      "Credits": 3,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "CSE498",
+      "ClassName": "Collaborative Design (W)",
+      "Credits": 4,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "STT351",
+      "ClassName": "Probability and Statistics for Engineering",
+      "Credits": 3,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "MTH314",
+      "ClassName": "Matrix Algebra with Computational Applications",
+      "Credits": 3,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "MTH317H",
+      "ClassName": "Honors Linear Algebra",
+      "Credits": 4,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
       "Required": "yes"
     }
   ],
   "CSE": [
     {
-      "ClassCode": "CSE101",
-      "ClassName": "Introduction to Computer Engineering",
-      "Credits": 4,
+      "ClassCode": "CEM161",
+      "ClassName": "Chemistry Laboratory I",
+      "Credits": 1,
       "Prerecs": [],
-      "Concurrents": "None",
+      "Concurrents": [],
       "SemestersOffered": ["F", "S", "A"],
       "Required": "yes"
     },
     {
-      "ClassCode": "CSE201",
-      "ClassName": "Digital Systems Design",
-      "Credits": 3,
-      "Prerecs": ["CSE101"],
-      "Concurrents": "None",
-      "SemestersOffered": ["F", "S"],
+      "ClassCode": "PHY191",
+      "ClassName": "Physics Laboratory for Scientists, I",
+      "Credits": 1,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
       "Required": "yes"
     },
     {
-      "ClassCode": "CSE301",
-      "ClassName": "Embedded Systems",
-      "Credits": 3,
-      "Prerecs": ["CSE201"],
-      "Concurrents": "None",
-      "SemestersOffered": ["F"],
+      "ClassCode": "CSE232",
+      "ClassName": "Introduction to Programming II",
+      "Credits": 4,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
       "Required": "yes"
     },
     {
-      "ClassCode": "CSE302",
-      "ClassName": "Microprocessors",
-      "Credits": 3,
-      "Prerecs": ["CSE101"],
-      "Concurrents": "None",
-      "SemestersOffered": ["S"],
+      "ClassCode": "CSE260",
+      "ClassName": "Discrete Structures in Computer Science",
+      "Credits": 4,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
       "Required": "yes"
     },
     {
-      "ClassCode": "CSE303",
-      "ClassName": "Digital Signal Processing",
+      "ClassCode": "CSE325",
+      "ClassName": "Computer Systems",
       "Credits": 3,
-      "Prerecs": ["CSE201"],
-      "Concurrents": "None",
-      "SemestersOffered": ["F"],
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
       "Required": "yes"
     },
     {
-      "ClassCode": "CSE304",
-      "ClassName": "Embedded Systems Design",
+      "ClassCode": "CSE331",
+      "ClassName": "Algorithms and Data Structures",
       "Credits": 3,
-      "Prerecs": ["CSE201"],
-      "Concurrents": "None",
-      "SemestersOffered": ["S"],
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
       "Required": "yes"
     },
     {
-      "ClassCode": "CSE305",
-      "ClassName": "Robotics",
+      "ClassCode": "ECE201",
+      "ClassName": "Circuits and Systems I",
       "Credits": 3,
-      "Prerecs": ["CSE301"],
-      "Concurrents": "None",
-      "SemestersOffered": ["F"],
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
       "Required": "yes"
     },
     {
-      "ClassCode": "CSE306",
-      "ClassName": "VLSI Design",
+      "ClassCode": "ECE202",
+      "ClassName": "Circuits and Systems II",
       "Credits": 3,
-      "Prerecs": ["CSE303"],
-      "Concurrents": "None",
-      "SemestersOffered": ["S"],
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
       "Required": "yes"
     },
     {
-      "ClassCode": "CSE307",
-      "ClassName": "Computer Vision",
-      "Credits": 3,
-      "Prerecs": ["CSE304"],
-      "Concurrents": "None",
-      "SemestersOffered": ["F"],
+      "ClassCode": "ECE203",
+      "ClassName": "Electric Circuits and Systems Laboratory",
+      "Credits": 1,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
       "Required": "yes"
     },
     {
-      "ClassCode": "CSE308",
-      "ClassName": "Parallel Computing",
+      "ClassCode": "ECE230",
+      "ClassName": "Digital Logic Fundamentals",
       "Credits": 3,
-      "Prerecs": ["CSE304"],
-      "Concurrents": "None",
-      "SemestersOffered": ["S"],
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "ECE280",
+      "ClassName": "Electrical Engineering Analysis",
+      "Credits": 3,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "ECE302",
+      "ClassName": "Electronic Circuits",
+      "Credits": 3,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "ECE303",
+      "ClassName": "Electronics Laboratory",
+      "Credits": 1,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "ECE331",
+      "ClassName": "Microprocessors and Digital Systems",
+      "Credits": 4,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "ECE366",
+      "ClassName": "Introduction to Signal Processing",
+      "Credits": 3,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "ECE390",
+      "ClassName": "Ethics, Professionalism and Contemporary Issues",
+      "Credits": 1,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "ECE480",
+      "ClassName": "Senior Design",
+      "Credits": 4,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "ECE489",
+      "ClassName": "Independent Senior Design",
+      "Credits": 4,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
       "Required": "yes"
     }
   ],
@@ -578,87 +890,6 @@
       "Concurrents": [],
       "SemestersOffered": ["F", "S"],
       "Required": "yes"
-    },
-    {
-      "ClassCode": "BE201",
-      "ClassName": "Bioprocess Engineering",
-      "Credits": 3,
-      "Prerecs": ["BE101"],
-      "Concurrents": [],
-      "SemestersOffered": ["S"],
-      "Required": "yes"
-    },
-    {
-      "ClassCode": "BE301",
-      "ClassName": "Environmental Systems",
-      "Credits": 3,
-      "Prerecs": ["BE201"],
-      "Concurrents": [],
-      "SemestersOffered": ["F"],
-      "Required": "yes"
-    },
-    {
-      "ClassCode": "BE302",
-      "ClassName": "Biomaterials",
-      "Credits": 3,
-      "Prerecs": ["BE101"],
-      "Concurrents": [],
-      "SemestersOffered": ["F"],
-      "Required": "yes"
-    },
-    {
-      "ClassCode": "BE303",
-      "ClassName": "Biomedical Instrumentation",
-      "Credits": 3,
-      "Prerecs": ["BE101"],
-      "Concurrents": [],
-      "SemestersOffered": ["S"],
-      "Required": "yes"
-    },
-    {
-      "ClassCode": "BE304",
-      "ClassName": "Biomechanics",
-      "Credits": 3,
-      "Prerecs": ["BE201"],
-      "Concurrents": [],
-      "SemestersOffered": ["F"],
-      "Required": "yes"
-    },
-    {
-      "ClassCode": "BE305",
-      "ClassName": "Environmental Biotechnology",
-      "Credits": 3,
-      "Prerecs": ["BE301"],
-      "Concurrents": [],
-      "SemestersOffered": ["S"],
-      "Required": "yes"
-    },
-    {
-      "ClassCode": "BE306",
-      "ClassName": "Genetic Engineering",
-      "Credits": 3,
-      "Prerecs": ["BE201"],
-      "Concurrents": [],
-      "SemestersOffered": ["F"],
-      "Required": "yes"
-    },
-    {
-      "ClassCode": "BE307",
-      "ClassName": "Food Processing",
-      "Credits": 3,
-      "Prerecs": ["BE304"],
-      "Concurrents": [],
-      "SemestersOffered": ["S"],
-      "Required": "yes"
-    },
-    {
-      "ClassCode": "BE308",
-      "ClassName": "Clinical Engineering",
-      "Credits": 3,
-      "Prerecs": ["BE306"],
-      "Concurrents": [],
-      "SemestersOffered": ["F"],
-      "Required": "yes"
     }
   ],
   "AES": [
@@ -670,87 +901,6 @@
       "Concurrents": [],
       "SemestersOffered": ["F", "S"],
       "Required": "yes"
-    },
-    {
-      "ClassCode": "AES201",
-      "ClassName": "Engineering Design",
-      "Credits": 3,
-      "Prerecs": ["AES101"],
-      "Concurrents": [],
-      "SemestersOffered": ["F"],
-      "Required": "yes"
-    },
-    {
-      "ClassCode": "AES301",
-      "ClassName": "Systems Analysis",
-      "Credits": 3,
-      "Prerecs": ["AES201"],
-      "Concurrents": [],
-      "SemestersOffered": ["S"],
-      "Required": "yes"
-    },
-    {
-      "ClassCode": "AES302",
-      "ClassName": "Applied Thermodynamics",
-      "Credits": 3,
-      "Prerecs": ["AES101"],
-      "Concurrents": [],
-      "SemestersOffered": ["F"],
-      "Required": "yes"
-    },
-    {
-      "ClassCode": "AES303",
-      "ClassName": "Engineering Graphics",
-      "Credits": 3,
-      "Prerecs": ["AES101"],
-      "Concurrents": [],
-      "SemestersOffered": ["S"],
-      "Required": "yes"
-    },
-    {
-      "ClassCode": "AES304",
-      "ClassName": "Digital Fabrication",
-      "Credits": 3,
-      "Prerecs": ["AES201"],
-      "Concurrents": [],
-      "SemestersOffered": ["F"],
-      "Required": "yes"
-    },
-    {
-      "ClassCode": "AES305",
-      "ClassName": "Product Design",
-      "Credits": 3,
-      "Prerecs": ["AES301"],
-      "Concurrents": [],
-      "SemestersOffered": ["S"],
-      "Required": "yes"
-    },
-    {
-      "ClassCode": "AES306",
-      "ClassName": "Sustainable Design",
-      "Credits": 3,
-      "Prerecs": ["AES304"],
-      "Concurrents": [],
-      "SemestersOffered": ["F"],
-      "Required": "yes"
-    },
-    {
-      "ClassCode": "AES307",
-      "ClassName": "Project Management",
-      "Credits": 3,
-      "Prerecs": ["AES305"],
-      "Concurrents": [],
-      "SemestersOffered": ["S"],
-      "Required": "yes"
-    },
-    {
-      "ClassCode": "AES308",
-      "ClassName": "Engineering Economics",
-      "Credits": 3,
-      "Prerecs": ["AES306"],
-      "Concurrents": [],
-      "SemestersOffered": ["F"],
-      "Required": "yes"
     }
   ],
   "MSE": [
@@ -761,87 +911,6 @@
       "Prerecs": [],
       "Concurrents": [],
       "SemestersOffered": ["F", "S"],
-      "Required": "yes"
-    },
-    {
-      "ClassCode": "MSE201",
-      "ClassName": "Properties of Materials",
-      "Credits": 3,
-      "Prerecs": ["MSE101"],
-      "Concurrents": [],
-      "SemestersOffered": ["F"],
-      "Required": "yes"
-    },
-    {
-      "ClassCode": "MSE301",
-      "ClassName": "Materials Processing",
-      "Credits": 3,
-      "Prerecs": ["MSE201"],
-      "Concurrents": [],
-      "SemestersOffered": ["S"],
-      "Required": "yes"
-    },
-    {
-      "ClassCode": "MSE302",
-      "ClassName": "Advanced Materials Characterization",
-      "Credits": 3,
-      "Prerecs": ["MSE101"],
-      "Concurrents": [],
-      "SemestersOffered": ["F"],
-      "Required": "yes"
-    },
-    {
-      "ClassCode": "MSE303",
-      "ClassName": "Nanomaterials",
-      "Credits": 3,
-      "Prerecs": ["MSE201"],
-      "Concurrents": [],
-      "SemestersOffered": ["S"],
-      "Required": "yes"
-    },
-    {
-      "ClassCode": "MSE304",
-      "ClassName": "Polymer Science",
-      "Credits": 3,
-      "Prerecs": ["MSE201"],
-      "Concurrents": [],
-      "SemestersOffered": ["F"],
-      "Required": "yes"
-    },
-    {
-      "ClassCode": "MSE305",
-      "ClassName": "Metallurgy",
-      "Credits": 3,
-      "Prerecs": ["MSE201"],
-      "Concurrents": [],
-      "SemestersOffered": ["S"],
-      "Required": "yes"
-    },
-    {
-      "ClassCode": "MSE306",
-      "ClassName": "Ceramic Engineering",
-      "Credits": 3,
-      "Prerecs": ["MSE201"],
-      "Concurrents": [],
-      "SemestersOffered": ["F"],
-      "Required": "yes"
-    },
-    {
-      "ClassCode": "MSE307",
-      "ClassName": "Corrosion Engineering",
-      "Credits": 3,
-      "Prerecs": ["MSE201"],
-      "Concurrents": [],
-      "SemestersOffered": ["S"],
-      "Required": "yes"
-    },
-    {
-      "ClassCode": "MSE308",
-      "ClassName": "Composite Materials",
-      "Credits": 3,
-      "Prerecs": ["MSE301"],
-      "Concurrents": [],
-      "SemestersOffered": ["F"],
       "Required": "yes"
     }
   ]
