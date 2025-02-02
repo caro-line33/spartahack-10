@@ -130,7 +130,6 @@
       "Credits": 3,
       "Prerecs": [],
       "Concurrents": [],
-<<<<<<< Updated upstream
       "SemestersOffered": ["F", "S"],
       "Required": "yes"
     },
@@ -151,10 +150,6 @@
       "Concurrents": [],
       "SemestersOffered": ["F"],
       "Required": "yes"
-=======
-      "SemestersOffered": ["F", "S", "A"],
-      "Required" : "no"
->>>>>>> Stashed changes
     }
   ],
   "ME": [
