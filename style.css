@@ -263,3 +263,8 @@ button{
     max-width: 800px; /* Limits row width */
     margin: 20px auto; /* Centers the container */
 }
+
+button:not(.button):hover {
+    box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.9);
+    color: white;
+}

@@ -128,15 +128,6 @@
       "Required": "no"
     },
     {
-      "ClassCode": "ECE301",
-      "ClassName": "Advanced Circuit Analysis",
-      "Credits": 3,
-      "Prerecs": [["ECE202"]],
-      "Concurrents": [],
-      "SemestersOffered": ["F", "S"],
-      "Required": "yes"
-    },
-    {
       "ClassCode": "ECE350",
       "ClassName": "Signal Processing Fundamentals",
       "Credits": 3,
@@ -385,6 +376,43 @@
   ],
   "ME": [
     {
+      "ClassCode": "MTH 132",
+      "ClassName": "Calculus I",
+      "Credits": 3,
+      "Prerecs": [
+      ],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "MTH 133",
+      "ClassName": "Calculus II",
+      "Credits": 4,
+      "Prerecs": ["MTH 132"],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "MTH 234",
+      "ClassName": "Calculus III",
+      "Credits": 4,
+      "Prerecs": ["MTH 133"],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "MTH 235",
+      "ClassName": "Differential Equations",
+      "Credits": 3,
+      "Prerecs": ["MTH 234"],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
       "ClassCode": "CE221",
       "ClassName": "Statics",
       "Credits": 3,
@@ -613,6 +641,168 @@
       "Prerecs": [],
       "Concurrents": [],
       "SemestersOffered": ["F", "S"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "CE 221",
+      "ClassName": "Statics",
+      "Credits": 3,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "CE 273",
+      "ClassName": "Civil and Environmental Engineering Measurements",
+      "Credits": 2,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "CE 274",
+      "ClassName": "Graphics for Civil and Environmental Engineers",
+      "Credits": 1,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "CE 275",
+      "ClassName": "GIS for Civil and Environmental Engineers",
+      "Credits": 1,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "CE 305",
+      "ClassName": "Introduction to Structural Analysis",
+      "Credits": 3,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "CE 312",
+      "ClassName": "Soil Mechanics",
+      "Credits": 4,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "CE 321",
+      "ClassName": "Introduction to Fluid Mechanics",
+      "Credits": 4,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "CE 337",
+      "ClassName": "Civil Engineering Materials",
+      "Credits": 4,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "CE 341",
+      "ClassName": "Transportation Engineering",
+      "Credits": 3,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "CE 371",
+      "ClassName": "Sustainable Civil and Environmental Engineering Systems",
+      "Credits": 3,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "CE 372",
+      "ClassName": "Risk Analysis in Civil and Environmental Engineering",
+      "Credits": 3,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "CE 495",
+      "ClassName": "Senior Design in Civil and Environmental Engineering",
+      "Credits": 4,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "CEM 161",
+      "ClassName": "Chemistry Laboratory I",
+      "Credits": 1,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "ENE 280",
+      "ClassName": "Principles of Environmental Engineering and Science",
+      "Credits": 3,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "ME 222",
+      "ClassName": "Mechanics of Deformable Solids",
+      "Credits": 3,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "GLG 201",
+      "ClassName": "The Dynamic Earth",
+      "Credits": 4,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "ME 201",
+      "ClassName": "Thermodynamics",
+      "Credits": 3,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "MSE 250",
+      "ClassName": "Materials Science and Engineering",
+      "Credits": 3,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
       "Required": "yes"
     }
   ],
@@ -1090,8 +1280,189 @@
       "Concurrents": [],
       "SemestersOffered": ["F", "S"],
       "Required": "yes"
-    }
+    },
+      {
+        "ClassCode": "BE 101",
+        "ClassName": "Introduction to Biosystems Engineering",
+        "Credits": 1,
+        "Prerecs": [],
+        "Concurrents": [],
+        "SemestersOffered": ["F", "S", "A"],
+        "Required": "yes"
+      },
+      {
+        "ClassCode": "BE 201",
+        "ClassName": "Drafting in Biosystems Engineering",
+        "Credits": 1,
+        "Prerecs": [],
+        "Concurrents": [],
+        "SemestersOffered": ["F", "S", "A"],
+        "Required": "yes"
+      },
+      {
+        "ClassCode": "BE 230",
+        "ClassName": "Engineering Analysis of Biological Systems",
+        "Credits": 3,
+        "Prerecs": [],
+        "Concurrents": [],
+        "SemestersOffered": ["F", "S", "A"],
+        "Required": "yes"
+      },
+      {
+        "ClassCode": "BE 332",
+        "ClassName": "Engineering Properties of Biological Materials",
+        "Credits": 3,
+        "Prerecs": [],
+        "Concurrents": [],
+        "SemestersOffered": ["F", "S", "A"],
+        "Required": "yes"
+      },
+      {
+        "ClassCode": "BE 334",
+        "ClassName": "Biosystems Engineering Laboratory Practice (W)",
+        "Credits": 3,
+        "Prerecs": [],
+        "Concurrents": [],
+        "SemestersOffered": ["F", "S", "A"],
+        "Required": "yes"
+      },
+      {
+        "ClassCode": "BE 350",
+        "ClassName": "Heat and Mass Transfer in Biosystems",
+        "Credits": 3,
+        "Prerecs": [],
+        "Concurrents": [],
+        "SemestersOffered": ["F", "S", "A"],
+        "Required": "yes"
+      },
+      {
+        "ClassCode": "BE 351",
+        "ClassName": "Thermodynamics for Biological Engineering",
+        "Credits": 3,
+        "Prerecs": [],
+        "Concurrents": [],
+        "SemestersOffered": ["F", "S", "A"],
+        "Required": "yes"
+      },
+      {
+        "ClassCode": "BE 360",
+        "ClassName": "Microbial Systems Engineering",
+        "Credits": 3,
+        "Prerecs": [],
+        "Concurrents": [],
+        "SemestersOffered": ["F", "S", "A"],
+        "Required": "yes"
+      },
+      {
+        "ClassCode": "BE 385",
+        "ClassName": "Engineering Design and Optimization for Biological Systems",
+        "Credits": 3,
+        "Prerecs": [],
+        "Concurrents": [],
+        "SemestersOffered": ["F", "S", "A"],
+        "Required": "yes"
+      },
+      {
+        "ClassCode": "BE 485",
+        "ClassName": "Biosystems Design Techniques (W)",
+        "Credits": 3,
+        "Prerecs": [],
+        "Concurrents": [],
+        "SemestersOffered": ["F", "S", "A"],
+        "Required": "yes"
+      },
+      {
+        "ClassCode": "BE 487",
+        "ClassName": "Biosystems Design Project",
+        "Credits": 3,
+        "Prerecs": [],
+        "Concurrents": [],
+        "SemestersOffered": ["F", "S", "A"],
+        "Required": "yes"
+      },
+      {
+        "ClassCode": "BS 161",
+        "ClassName": "Cell and Molecular Biology",
+        "Credits": 3,
+        "Prerecs": [],
+        "Concurrents": [],
+        "SemestersOffered": ["F", "S", "A"],
+        "Required": "yes"
+      },
+      {
+        "ClassCode": "BS 162",
+        "ClassName": "Organismal and Population Biology",
+        "Credits": 3,
+        "Prerecs": [],
+        "Concurrents": [],
+        "SemestersOffered": ["F", "S", "A"],
+        "Required": "yes"
+      },
+      {
+        "ClassCode": "CE 221",
+        "ClassName": "Statics",
+        "Credits": 3,
+        "Prerecs": [],
+        "Concurrents": [],
+        "SemestersOffered": ["F", "S", "A"],
+        "Required": "yes"
+      },
+      {
+        "ClassCode": "CE 321",
+        "ClassName": "Introduction to Fluid Mechanics",
+        "Credits": 4,
+        "Prerecs": [],
+        "Concurrents": [],
+        "SemestersOffered": ["F", "S", "A"],
+        "Required": "yes"
+      },
+      {
+        "ClassCode": "CEM 143",
+        "ClassName": "Survey of Organic Chemistry",
+        "Credits": 4,
+        "Prerecs": [],
+        "Concurrents": [],
+        "SemestersOffered": ["F", "S", "A"],
+        "Required": "yes"
+      },
+      {
+        "ClassCode": "CEM 151",
+        "ClassName": "General and Descriptive Chemistry",
+        "Credits": 4,
+        "Prerecs": [],
+        "Concurrents": [],
+        "SemestersOffered": ["F", "S", "A"],
+        "Required": "yes"
+      },
+      {
+        "ClassCode": "CEM 161",
+        "ClassName": "Chemistry Laboratory I",
+        "Credits": 1,
+        "Prerecs": [],
+        "Concurrents": [],
+        "SemestersOffered": ["F", "S", "A"],
+        "Required": "yes"
+      },
+      {
+        "ClassCode": "BS 171",
+        "ClassName": "Cell and Molecular Biology Laboratory",
+        "Credits": 2,
+        "Prerecs": [],
+        "Concurrents": [],
+        "SemestersOffered": ["F", "S", "A"],
+        "Required": "yes"
+      },
+      {
+        "ClassCode": "BS 172",
+        "ClassName": "Organismal and Population Biology Laboratory",
+        "Credits": 2,
+        "Prerecs": [],
+        "Concurrents": [],
+        "SemestersOffered": ["F", "S", "A"],
+        "Required": "yes"
+      }
   ],
+  
   "AES": [
     {
       "ClassCode": "MTH 132",
@@ -1138,6 +1509,186 @@
       "Concurrents": [],
       "SemestersOffered": ["F", "S"],
       "Required": "yes"
+    },
+    {
+      "ClassCode": "ACC 230",
+      "ClassName": "Survey of Accounting Concepts",
+      "Credits": 3,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "AESC 210",
+      "ClassName": "Global Systems: Economics, Engineering, Environment",
+      "Credits": 3,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "AESC 110",
+      "ClassName": "AES as a Profession",
+      "Credits": 1,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "AESC 310",
+      "ClassName": "Sustainable Systems Analysis",
+      "Credits": 3,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "AESC 410",
+      "ClassName": "Capstone Project in Applied Engineering Sciences",
+      "Credits": 3,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "CE 221",
+      "ClassName": "Statics",
+      "Credits": 3,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "CEM 161",
+      "ClassName": "Chemistry Laboratory I",
+      "Credits": 1,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "EC 201",
+      "ClassName": "Introduction to Microeconomics",
+      "Credits": 3,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "EC 202",
+      "ClassName": "Introduction to Macroeconomics",
+      "Credits": 3,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "ECE 345",
+      "ClassName": "Electronic Instrumentation and Systems",
+      "Credits": 3,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "ENE 371",
+      "ClassName": "Sustainable Civil and Environmental Engineering Systems",
+      "Credits": 3,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "ME 201",
+      "ClassName": "Thermodynamics",
+      "Credits": 3,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "ME 280",
+      "ClassName": "Graphic Communications",
+      "Credits": 2,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "MKT 317",
+      "ClassName": "Market Analytics",
+      "Credits": 3,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "MSE 250",
+      "ClassName": "Materials Science and Engineering",
+      "Credits": 3,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "PHY 191",
+      "ClassName": "Physics Laboratory for Scientists, I",
+      "Credits": 1,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "COM 225",
+      "ClassName": "An Introduction to Interpersonal Communication",
+      "Credits": 3,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "MGT 325",
+      "ClassName": "Management Skills and Processes",
+      "Credits": 3,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "STT 351",
+      "ClassName": "Probability and Statistics for Engineering",
+      "Credits": 3,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "STT 380",
+      "ClassName": "Probability and Statistics for Data Science",
+      "Credits": 4,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
     }
   ],
   "MSE": [
@@ -1179,12 +1730,192 @@
       "Required": "yes"
     },
     {
-      "ClassCode": "MSE101",
-      "ClassName": "Introduction to Materials Science",
+      "ClassCode": "CE 221",
+      "ClassName": "Statics",
       "Credits": 3,
       "Prerecs": [],
       "Concurrents": [],
-      "SemestersOffered": ["F", "S"],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "CEM 152",
+      "ClassName": "Principles of Chemistry",
+      "Credits": 3,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "CEM 161",
+      "ClassName": "Chemistry Laboratory I",
+      "Credits": 1,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "ECE 345",
+      "ClassName": "Electronic Instrumentation and Systems",
+      "Credits": 3,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "ME 222",
+      "ClassName": "Mechanics of Deformable Solids",
+      "Credits": 3,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "MSE 250",
+      "ClassName": "Materials Science and Engineering",
+      "Credits": 3,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "MSE 260",
+      "ClassName": "Electronic, Magnetic, Thermal and Optical Properties of Materials",
+      "Credits": 3,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "MSE 310",
+      "ClassName": "Phase Equilibria in Materials",
+      "Credits": 3,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "MSE 320",
+      "ClassName": "Mechanical Properties of Materials",
+      "Credits": 3,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "MSE 331",
+      "ClassName": "Materials Characterization Methods I",
+      "Credits": 2,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "MSE 360",
+      "ClassName": "Fundamentals of Microstructural Design",
+      "Credits": 3,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "MSE 370",
+      "ClassName": "Synthesis and Processing of Materials",
+      "Credits": 3,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "MSE 381",
+      "ClassName": "Materials Characterization Methods II",
+      "Credits": 2,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "MSE 466",
+      "ClassName": "Design and Failure Analysis (W)",
+      "Credits": 3,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "STT 351",
+      "ClassName": "Probability and Statistics for Engineering",
+      "Credits": 3,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "ME 477",
+      "ClassName": "Manufacturing Processes",
+      "Credits": 3,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "MSE 425",
+      "ClassName": "Biomaterials and Biocompatibility",
+      "Credits": 3,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "MSE 460",
+      "ClassName": "Electronic Structure and Bonding in Materials and Devices",
+      "Credits": 3,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "MSE 465",
+      "ClassName": "Design and Application of Engineering Materials",
+      "Credits": 3,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "MSE 474",
+      "ClassName": "Ceramic and Refractory Materials",
+      "Credits": 3,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "MSE 476",
+      "ClassName": "Physical Metallurgy of Ferrous and Alluminum Alloys",
+      "Credits": 3,
+      "Prerecs": [],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S", "A"],
       "Required": "yes"
     }
   ]
