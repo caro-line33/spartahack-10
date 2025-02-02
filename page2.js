@@ -2,6 +2,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     // Get the container element and the major from localStorage
     const classBank = document.getElementById('selectedCourses');
     const myMajor = localStorage.getItem('myMajor'); // e.g., "EE"
+    const confirmClasses = document.getElementById('confirmClasses');
     let selectedClasses = [];
     
     try {
@@ -50,6 +51,12 @@ document.addEventListener("DOMContentLoaded", async () => {
       
     } catch (error) {
       console.error('Error fetching the JSON file:', error);
+    }
+
+    confirmClasses.addEventListener('click', storeTakenClasses)
+    function storeTakenClasses(){
+        localStorage.setItem("takenClasses", selectedClasses);
+        window.location.href = "page3.html"; 
     }
   });
 
