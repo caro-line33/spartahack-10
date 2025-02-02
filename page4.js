@@ -11,6 +11,7 @@ window.addEventListener('load', function () {
   const myMajor = localStorage.getItem("myMajor");
   let prerec_array = [];
   let i = 0;
+  let needToTake = [];
   
       const takenClassesStr = localStorage.getItem("takenClasses") || "";
       const takenClasses = takenClassesStr ? takenClassesStr.split(",") : [];
@@ -39,9 +40,21 @@ window.addEventListener('load', function () {
             classBank.appendChild(reqClass);
             let newItem = document.createElement('button');
             newItem.innerHTML = `${course.ClassCode}, ${course.SemestersOffered}`;
+            needToTake.push(course)
             
           }
         });
+
+        // display required
+        console.log(needToTake)
+        needToTake.forEach((course) => {
+          if (course.Required == "yes") {
+            console.log("Required: ", course.ClassCode)
+          }
+          else {
+            console.log("Not Required: ", course.ClassCode)
+          }
+        })
 
         console.log(prerec_array);
         classBank.appendChild(newItem);
