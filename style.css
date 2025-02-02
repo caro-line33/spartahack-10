@@ -12,7 +12,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     /* background: url('https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExcHRwd2ZmcDI5ajB6Z3ZwY3NraGp2MTZjejkwb3Fhemk2N2YybmF2YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/UYBDCJjwOd9Re/giphy.gif   ') repeat; Replace with your GIF URL */
     background-image: url('background.png'); /* Replace with your image file */
     /* background: black; */
@@ -21,7 +21,10 @@ body {
     padding: 20px;
     text-align: center;
     position: relative;
-    overflow: hidden; /* Hide any excess GIF outside of the view */
+    height: auto; /* Adjust height to fit content */
+    min-height: 100vh; /* Ensure at least full screen height */
+    overflow-y: auto; /* Allow scrolling */
+    /* overflow: hidden; Hide any excess GIF outside of the view */
     transition: opacity 1.5s ease-in-out;
     opacity: 0;
 
@@ -157,15 +160,6 @@ button{
    }
    
 /* SELECT / UNSELECT BUTTON */
-
-/* .selected{
-    background-color:#a060ca;
-    color: #e4e4e4;
-}
-
-.unselected{
-    background-color:rgb(230, 230, 230)
-} */
 .selected {
     background-color: transparent; /* Keep background transparent */
     color: #e4e4e4;
