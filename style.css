@@ -6,14 +6,13 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+
 /* Body Styling */
 body {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* min-height: 100vh; */
-    /* background: url('https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExcHRwd2ZmcDI5ajB6Z3ZwY3NraGp2MTZjejkwb3Fhemk2N2YybmF2YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/UYBDCJjwOd9Re/giphy.gif   ') repeat; Replace with your GIF URL */
     background-image: url('background.png'); /* Replace with your image file */
     /* background: black; */
     background-size: cover; /* Ensure the GIF covers the whole screen */
@@ -24,9 +23,9 @@ body {
     height: auto; /* Adjust height to fit content */
     min-height: 100vh; /* Ensure at least full screen height */
     overflow-y: auto; /* Allow scrolling */
-    /* overflow: hidden; Hide any excess GIF outside of the view */
     transition: opacity 1.5s ease-in-out;
     opacity: 0;
+    cursor: url('arrow_cursor.png'), auto;
 
 }
 
