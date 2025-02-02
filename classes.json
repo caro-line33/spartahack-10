@@ -8,11 +8,7 @@
       "Prerecs": [],
       "Concurrents": [],
       "SemestersOffered": ["F", "S", "A"],
-<<<<<<< Updated upstream
       "Required": "no"
-=======
-      "Required" : "no"
->>>>>>> Stashed changes
     },
     {
       "ClassCode": "ECE201",
@@ -24,11 +20,7 @@
       ],
       "Concurrents": ["CSE231", "EGR102", "CSE220", "MTH234", "MTH254H", "LB220"],
       "SemestersOffered": ["F", "S", "A"],
-<<<<<<< Updated upstream
       "Required": "yes"
-=======
-      "Required" : "yes"
->>>>>>> Stashed changes
     },
     {
       "ClassCode": "ECE202",
@@ -40,11 +32,7 @@
       ],
       "Concurrents": ["MTH235"],
       "SemestersOffered": ["F", "S", "A"],
-<<<<<<< Updated upstream
       "Required": "yes"
-=======
-      "Required" : "yes"
->>>>>>> Stashed changes
     },
     {
       "ClassCode": "ECE203",
@@ -55,11 +43,7 @@
       ],
       "Concurrents": ["ECE202"],
       "SemestersOffered": ["F", "S", "A"],
-<<<<<<< Updated upstream
       "Required": "yes"
-=======
-      "Required" : "yes"
->>>>>>> Stashed changes
     },
     {
       "ClassCode": "ECE230",
@@ -70,11 +54,7 @@
       ],
       "Concurrents": ["CSE231", "CSE220"],
       "SemestersOffered": ["F", "S", "A"],
-<<<<<<< Updated upstream
       "Required": "yes"
-=======
-      "Required" : "yes"
->>>>>>> Stashed changes
     },
     {
       "ClassCode": "ECE280",
@@ -86,11 +66,7 @@
       ],
       "Concurrents": ["ECE201"],
       "SemestersOffered": ["F", "S", "A"],
-<<<<<<< Updated upstream
       "Required": "yes"
-=======
-      "Required" : "yes"
->>>>>>> Stashed changes
     },
     {
       "ClassCode": "CEM141",
@@ -101,11 +77,7 @@
       ],
       "Concurrents": ["MTH103", "MTH110", "MTH116", "MTH124", "MTH132", "MTH152H", "LBS117", "LBS118"],
       "SemestersOffered": ["F", "S", "A"],
-<<<<<<< Updated upstream
       "Required": "yes"
-=======
-      "Required" : "yes"
->>>>>>> Stashed changes
     },
     {
       "ClassCode": "PHY191",
@@ -116,11 +88,7 @@
       ],
       "Concurrents": ["PHY183", "PHY183B", "PHY193H"],
       "SemestersOffered": ["F", "A"],
-<<<<<<< Updated upstream
       "Required": "no"
-=======
-      "Required" : "no"
->>>>>>> Stashed changes
     }
   ],
   "ChE": [
