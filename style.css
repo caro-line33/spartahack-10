@@ -63,6 +63,13 @@ p{
     text-transform: uppercase;
 }
 
+h4{
+    font-weight: 300; /* Lighter weight */
+    letter-spacing: 1px;
+    padding: 10px;
+    color: #fff;
+}
+
 /* Dropdown Styling */
 select {
     width: 100%;
@@ -85,7 +92,7 @@ select {
 /* normal button*/
 button{
     --color: #FFF;
-    padding: 0.8em 1.7em;
+    padding: 0.8em 1.4em;
     background-color: transparent;
     border-radius: 50px;
     position: relative;
@@ -102,10 +109,18 @@ button{
     margin: 15px;
 }
 
+#selectedCourses {
+    display: flex;
+    flex-wrap: wrap; /* Allows buttons to move to the next line */
+    justify-content: center; /* Centers the buttons */
+    /* gap: 10px; Adds spacing between buttons */
+    max-width: 1000px; /* Adjust this to limit the number of buttons per row */
+}
+
 /* everything else */
 .button {
     --color: #FFF;
-    padding: 0.8em 1.7em;
+    padding: 0.8em 1.4em;
     background-color: transparent;
     border-radius: 50px;
     position: relative;
@@ -162,7 +177,7 @@ button{
 .selected {
     background-color: transparent; /* Keep background transparent */
     color: #e4e4e4;
-    padding: 0.8em 1.7em;
+    padding: 0.8em 1.4em;
     border-radius: 50px;
     position: relative;
     overflow: hidden;
@@ -191,7 +206,7 @@ button{
 .unselected {
     background-color: transparent;
     color: #FFF; /* Adjust text color for unselected state */
-    padding: 0.8em 1.7em;
+    padding: 0.8em 1.4em;
     border-radius: 50px;
     position: relative;
     overflow: hidden;
@@ -232,10 +247,19 @@ button{
 }
 
 .unselected:hover {
-    color: rgb(10, 25, 30);
+    color: #b0b0b0;
 }
 
 .unselected:active {
     filter: brightness(.8);
 }
 
+/* bruh */
+.selectedCourses{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive columns */
+    gap: 15px; /* Space between buttons */
+    justify-content: center;
+    max-width: 800px; /* Limits row width */
+    margin: 20px auto; /* Centers the container */
+}

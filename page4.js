@@ -64,16 +64,16 @@ document.addEventListener("DOMContentLoaded", async () => {
       currentSemester.push(course);
       semesterCredits += course.Credits;
 
-      let courseDiv = document.createElement('div');
-      courseDiv.innerHTML = `${course.ClassCode} - ${course.ClassName} (${course.Credits} credits)`;
+      let courseDiv = document.createElement('h4');
+      courseDiv.innerHTML = ` <strong> ${course.ClassCode} </strong>- ${course.ClassName} (${course.Credits} credits)`;
       classBank.appendChild(courseDiv);
       
       requiredCourses.push(course);
       
       console.log(`Added ${course.ClassCode} (${course.Credits} credits). Semester total: ${semesterCredits}`);
     }
-    const finalCount = document.createElement('div');
-    finalCount.innerHTML = `credit total: ${semesterCredits}`;
+    const finalCount = document.createElement('h4');
+    finalCount.innerHTML = `<strong>Credit Total</strong>: ${semesterCredits}`;
     classBank.appendChild(finalCount);
     console.log("Final Semester Courses:", currentSemester);
     console.log("Total Semester Credits:", semesterCredits);
