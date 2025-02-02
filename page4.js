@@ -43,18 +43,6 @@ window.addEventListener('load', function () {
           }
         });
 
-        
-        data[myMajor].forEach((course, index) => {
-          course.Prerecs.forEach((grouping) => { 
-            grouping.forEach((specificClass) => {
-              if (taken.includes(specificClass)) {
-                console.log("Taken", specificClass)
-                prerec_array[grouping] = 1;
-                i++;
-              };    
-            });
-          });
-        });
         console.log(prerec_array);
         classBank.appendChild(newItem);
   
