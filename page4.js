@@ -13,6 +13,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   let currentSemester = [];
   let requiredCourses = [];
   let electiveCourses = [];
+  let inProgress = [];
 
   const classBank = document.getElementById('classBank');
   const requiredBank = document.getElementById('requiredCourses');
@@ -45,15 +46,19 @@ document.addEventListener("DOMContentLoaded", async () => {
       let conc = 1;
       if (course.Prerecs.length > 0) {
         course.Prerecs.forEach(grouping => {
-          console.log("Grouping, ", grouping)
-          prereqs[grouping] = 1;
-        }); 
-        prerequisitesMet = prereqs.every(prereq => takenClasses.includes(prereq));
-      }
-      else if (course.Concurrents.length > 0){
-        let concurrentsSatisfied = 0;
+          console.log("Grouping ", grouping)
+          for (let reqs of grouping){
+            if(takenClasses.includes(reqs)){
+              prereqs[grouping] = 1
+              }
+            }
+          });
+        }; 
+
+      prerequisitesMet = prereqs.every(prereq => takenClasses.includes(prereq));
+      if (course.Concurrents.length > 0){
         for (conc in course.Concurrents){
-          if(conc in takenClasses){
+          if(conc.ClassCode in currentSemester){
             console.log('hello');
           }
           else{
@@ -77,9 +82,10 @@ document.addEventListener("DOMContentLoaded", async () => {
 
       if (course.Required !== "yes") {
         continue;
-      }
+      };
 
-      currentSemester.push(course);
+      currentSemester.push(course.ClassCode);
+
       semesterCredits += course.Credits;
 
       let courseDiv = document.createElement('h4');
