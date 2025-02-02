@@ -7,7 +7,8 @@
       "Credits": 1,
       "Prerecs": [],
       "Concurrents": [],
-      "SemestersOffered": ["F", "S", "A"]
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "no"
     },
     {
       "ClassCode": "ECE201",
@@ -18,7 +19,8 @@
         ["MTH234", "MTH254H", "LB220"]
       ],
       "Concurrents": ["CSE231", "EGR102", "CSE220", "MTH234", "MTH254H", "LB220"],
-      "SemestersOffered": ["F", "S", "A"]
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
     },
     {
       "ClassCode": "ECE202",
@@ -29,7 +31,8 @@
         ["MTH235", "MTH340", "MTH347H"]
       ],
       "Concurrents": ["MTH235"],
-      "SemestersOffered": ["F", "S", "A"]
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
     },
     {
       "ClassCode": "ECE203",
@@ -39,7 +42,8 @@
         ["ECE202"]
       ],
       "Concurrents": ["ECE202"],
-      "SemestersOffered": ["F", "S", "A"]
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
     },
     {
       "ClassCode": "ECE230",
@@ -49,18 +53,20 @@
         ["CSE231", "CSE220"]
       ],
       "Concurrents": ["CSE231", "CSE220"],
-      "SemestersOffered": ["F", "S", "A"]
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
     },
     {
       "ClassCode": "ECE280",
-      "ClassName": "Electrical engineering Analysis",
+      "ClassName": "Electrical Engineering Analysis",
       "Credits": 3,
       "Prerecs": [
         ["MTH234", "MTH234H"],
         ["ECE201"]
       ],
       "Concurrents": ["ECE201"],
-      "SemestersOffered": ["F", "S", "A"]
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
     },
     {
       "ClassCode": "CEM141",
@@ -70,7 +76,8 @@
         ["MTH103", "MTH110", "MTH116", "MTH124", "MTH132", "MTH152H", "LBS117", "LBS118"]
       ],
       "Concurrents": ["MTH103", "MTH110", "MTH116", "MTH124", "MTH132", "MTH152H", "LBS117", "LBS118"],
-      "SemestersOffered": ["F", "S", "A"]
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
     },
     {
       "ClassCode": "PHY191",
@@ -80,87 +87,240 @@
         ["PHY183", "PHY193H", "PHY183B"]
       ],
       "Concurrents": ["PHY183", "PHY183B", "PHY193H"],
-      "SemestersOffered": ["F", "A"]
+      "SemestersOffered": ["F", "A"],
+      "Required": "no"
     }
   ],
   "ChE": [
     {
-      "ClassCode": "ECE101",
-      "ClassName": "Introduction to Electrical and Computer Engineering",
-      "Credits": 1,
+      "ClassCode": "ChE101",
+      "ClassName": "Introduction to Chemical Engineering",
+      "Credits": 3,
       "Prerecs": [],
       "Concurrents": [],
-      "SemestersOffered": ["F", "S", "A"]
+      "SemestersOffered": ["F", "S"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "ChE201",
+      "ClassName": "Chemical Process Principles",
+      "Credits": 3,
+      "Prerecs": ["ChE101"],
+      "Concurrents": [],
+      "SemestersOffered": ["F", "S"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "ChE301",
+      "ClassName": "Thermodynamics for Chemical Engineers",
+      "Credits": 3,
+      "Prerecs": ["ChE201"],
+      "Concurrents": [],
+      "SemestersOffered": ["F"],
+      "Required": "yes"
     }
   ],
   "ME": [
     {
-      "ClassCode": "ECE101",
-      "ClassName": "Introduction to Electrical and Computer Engineering",
-      "Credits": 1,
+      "ClassCode": "ME101",
+      "ClassName": "Introduction to Mechanical Engineering",
+      "Credits": 3,
       "Prerecs": [],
       "Concurrents": [],
-      "SemestersOffered": ["F", "S", "A"]
+      "SemestersOffered": ["F", "S"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "ME201",
+      "ClassName": "Statics",
+      "Credits": 3,
+      "Prerecs": ["ME101"],
+      "Concurrents": [],
+      "SemestersOffered": ["F"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "ME301",
+      "ClassName": "Fluid Mechanics",
+      "Credits": 3,
+      "Prerecs": ["ME201"],
+      "Concurrents": [],
+      "SemestersOffered": ["S"],
+      "Required": "yes"
     }
   ],
   "CE": [
     {
-      "ClassCode": "ECE101",
-      "ClassName": "Introduction to Electrical and Computer Engineering",
-      "Credits": 1,
+      "ClassCode": "CE101",
+      "ClassName": "Introduction to Civil Engineering",
+      "Credits": 3,
       "Prerecs": [],
       "Concurrents": [],
-      "SemestersOffered": ["F", "S", "A"]
+      "SemestersOffered": ["F", "S"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "CE201",
+      "ClassName": "Surveying",
+      "Credits": 3,
+      "Prerecs": ["CE101"],
+      "Concurrents": [],
+      "SemestersOffered": ["F"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "CE301",
+      "ClassName": "Structural Analysis",
+      "Credits": 3,
+      "Prerecs": ["CE201"],
+      "Concurrents": [],
+      "SemestersOffered": ["S"],
+      "Required": "yes"
     }
   ],
   "CS": [
     {
-      "ClassCode": "ECE101",
-      "ClassName": "Introduction to Electrical and Computer Engineering",
-      "Credits": 1,
+      "ClassCode": "CS101",
+      "ClassName": "Introduction to Computer Science",
+      "Credits": 4,
       "Prerecs": [],
-      "Concurrents": [],
-      "SemestersOffered": ["F", "S", "A"]
+      "Concurrents": "None",
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "CS201",
+      "ClassName": "Data Structures",
+      "Credits": 4,
+      "Prerecs": ["CS101"],
+      "Concurrents": "None",
+      "SemestersOffered": ["F", "S"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "CS301",
+      "ClassName": "Algorithms",
+      "Credits": 4,
+      "Prerecs": ["CS201"],
+      "Concurrents": "None",
+      "SemestersOffered": ["F"],
+      "Required": "yes"
     }
   ],
   "CSE": [
     {
-      "ClassCode": "ECE101",
-      "ClassName": "Introduction to Electrical and Computer Engineering",
-      "Credits": 1,
+      "ClassCode": "CSE101",
+      "ClassName": "Introduction to Computer Engineering",
+      "Credits": 4,
       "Prerecs": [],
-      "Concurrents": [],
-      "SemestersOffered": ["F", "S", "A"]
+      "Concurrents": "None",
+      "SemestersOffered": ["F", "S", "A"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "CSE201",
+      "ClassName": "Digital Systems Design",
+      "Credits": 3,
+      "Prerecs": ["CSE101"],
+      "Concurrents": "None",
+      "SemestersOffered": ["F", "S"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "CSE301",
+      "ClassName": "Embedded Systems",
+      "Credits": 3,
+      "Prerecs": ["CSE201"],
+      "Concurrents": "None",
+      "SemestersOffered": ["F"],
+      "Required": "yes"
     }
   ],
   "BE": [
     {
-      "ClassCode": "ECE101",
-      "ClassName": "Introduction to Electrical and Computer Engineering",
-      "Credits": 1,
+      "ClassCode": "BE101",
+      "ClassName": "Introduction to Biosystems Engineering",
+      "Credits": 3,
       "Prerecs": [],
       "Concurrents": [],
-      "SemestersOffered": ["F", "S", "A"]
+      "SemestersOffered": ["F", "S"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "BE201",
+      "ClassName": "Bioprocess Engineering",
+      "Credits": 3,
+      "Prerecs": ["BE101"],
+      "Concurrents": [],
+      "SemestersOffered": ["S"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "BE301",
+      "ClassName": "Environmental Systems",
+      "Credits": 3,
+      "Prerecs": ["BE201"],
+      "Concurrents": [],
+      "SemestersOffered": ["F"],
+      "Required": "yes"
     }
   ],
   "AES": [
     {
-      "ClassCode": "ECE101",
-      "ClassName": "Introduction to Electrical and Computer Engineering",
-      "Credits": 1,
+      "ClassCode": "AES101",
+      "ClassName": "Introduction to Applied Engineering Sciences",
+      "Credits": 3,
       "Prerecs": [],
       "Concurrents": [],
-      "SemestersOffered": ["F", "S", "A"]
+      "SemestersOffered": ["F", "S"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "AES201",
+      "ClassName": "Engineering Design",
+      "Credits": 3,
+      "Prerecs": ["AES101"],
+      "Concurrents": [],
+      "SemestersOffered": ["F"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "AES301",
+      "ClassName": "Systems Analysis",
+      "Credits": 3,
+      "Prerecs": ["AES201"],
+      "Concurrents": [],
+      "SemestersOffered": ["S"],
+      "Required": "yes"
     }
   ],
   "MSE": [
     {
-      "ClassCode": "ECE101",
-      "ClassName": "Introduction to Electrical and Computer Engineering",
-      "Credits": 1,
+      "ClassCode": "MSE101",
+      "ClassName": "Introduction to Materials Science",
+      "Credits": 3,
       "Prerecs": [],
       "Concurrents": [],
-      "SemestersOffered": ["F", "S", "A"]
+      "SemestersOffered": ["F", "S"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "MSE201",
+      "ClassName": "Properties of Materials",
+      "Credits": 3,
+      "Prerecs": ["MSE101"],
+      "Concurrents": [],
+      "SemestersOffered": ["F"],
+      "Required": "yes"
+    },
+    {
+      "ClassCode": "MSE301",
+      "ClassName": "Materials Processing",
+      "Credits": 3,
+      "Prerecs": ["MSE201"],
+      "Concurrents": [],
+      "SemestersOffered": ["S"],
+      "Required": "yes"
     }
   ]
 }
