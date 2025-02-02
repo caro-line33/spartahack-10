@@ -9,6 +9,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     const classBank = document.getElementById('selectedCourses');
     const myMajor = localStorage.getItem('myMajor'); // e.g., "EE"
     const confirmClasses = document.getElementById('confirmClasses');
+    var credits = 0;
     let selectedClasses = [];
     
     try {
@@ -45,12 +46,16 @@ document.addEventListener("DOMContentLoaded", async () => {
             selectedClasses.push(course.ClassCode)
             newItem.className = 'selected';
             console.log("Selected Classes:", selectedClasses)
+            credits = credits + course.Credits;
+            console.log("Credits: ", credits)
           }
           else if (selectedClasses.includes(course.ClassCode)){
             index = selectedClasses.indexOf(course.ClassCode)
             selectedClasses.splice(index, 1)
             newItem.className = 'unselected';
             console.log("Selected Classes:", selectedClasses)
+            credits = credits - course.Credits;
+            console.log("Credits: ", credits)
           }
         })
         // Append the new button to the classBank container
@@ -64,6 +69,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     confirmClasses.addEventListener('click', storeTakenClasses)
     function storeTakenClasses(){
         localStorage.setItem("takenClasses", selectedClasses);
+        localStorage.setItem("totalCredits", credits)
         window.location.href = "page3.html"; 
     }
   });
