@@ -37,8 +37,6 @@ function storeMajor() {
         console.log(localStorage.getItem("myMajor"));
         enterMajorButton.disabled = false;
     }
-    // placeholder to test open file
-    open_file("myMajor");
 }
 
 function enter(){
