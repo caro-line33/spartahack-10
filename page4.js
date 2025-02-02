@@ -50,8 +50,19 @@ document.addEventListener("DOMContentLoaded", async () => {
         }); 
         prerequisitesMet = prereqs.every(prereq => takenClasses.includes(prereq));
       }
+      else if (course.Concurrents.length > 0){
+        let concurrentsSatisfied = 0;
+        for (conc in course.Concurrents){
+          if(conc in takenClasses){
+            console.log('hello');
+          }
+          else{
+            prerequisitesMet = false;
+          }
+        }
+      }
 
-      
+
       if (!prerequisitesMet) {
         console.log(`Prerequisites not met for ${course.ClassCode}`);
         continue;
