@@ -32,7 +32,16 @@ document.addEventListener("DOMContentLoaded", async () => {
         
         // Set its innerHTML (or textContent) to display the ClassCode
         newItem.innerHTML = `${course.ClassCode}`;
-        
+        newItem.addEventListener("click", () => {
+          if (!selectedClasses.includes(course.ClassCode)){
+            selectedClasses.push(course.ClassCode)
+            console.log("Selected Classes:", selectedClasses)
+          }
+          else if (selectedClasses.includes(course.ClassCode)){
+            selectedClasses.splice(course.ClassCode)
+            console.log("Selected Classes:", selectedClasses)
+          }
+        })
         // Append the new button to the classBank container
         classBank.appendChild(newItem);
       });
@@ -41,4 +50,4 @@ document.addEventListener("DOMContentLoaded", async () => {
       console.error('Error fetching the JSON file:', error);
     }
   });
-  
+
