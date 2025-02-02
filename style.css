@@ -116,6 +116,15 @@ select {
    }
    
 
+.selected{
+    background-color:#a060ca;
+    color: #e4e4e4;
+}
+
+.unselected{
+    background-color:rgb(230, 230, 230)
+
+}
 @view-transition{
     navigation: auto;
 }
