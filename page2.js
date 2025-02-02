@@ -2,6 +2,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     // Get the container element and the major from localStorage
     const classBank = document.getElementById('selectedCourses');
     const myMajor = localStorage.getItem('myMajor'); // e.g., "EE"
+    let selectedClasses = [];
     
     try {
       // Fetch the JSON file
@@ -38,7 +39,8 @@ document.addEventListener("DOMContentLoaded", async () => {
             console.log("Selected Classes:", selectedClasses)
           }
           else if (selectedClasses.includes(course.ClassCode)){
-            selectedClasses.splice(course.ClassCode)
+            index = selectedClasses.indexOf(course.ClassCode)
+            selectedClasses.splice(index, 1)
             console.log("Selected Classes:", selectedClasses)
           }
         })
